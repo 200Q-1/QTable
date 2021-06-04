@@ -990,6 +990,10 @@ execute if data entity @s {HandItems:[{id:"minecraft:raw_gold_block"}]} run tag 
 execute if data entity @s {HandItems:[{id:"minecraft:amethyst_block"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_amethyst_block
 execute if data entity @s {HandItems:[{id:"minecraft:copper_block"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_copper_block
 
+execute if data entity @s {HandItems:[{id:"minecraft:azalea_leaves"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_azalea_leaves
+execute if data entity @s {HandItems:[{id:"minecraft:flowering_azalea_leaves"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_flowering_azalea_leaves
+execute if data entity @s {HandItems:[{id:"minecraft:tinted_glass"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_tinted_glass
+
 execute if data entity @s {HandItems:[{id:"minecraft:azalea"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_azalea
 execute if data entity @s {HandItems:[{id:"minecraft:flowering_azalea"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_flowering_azalea
 execute if data entity @s {HandItems:[{id:"minecraft:moss_carpet"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_moss_carpet
