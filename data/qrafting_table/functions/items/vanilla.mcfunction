@@ -314,7 +314,7 @@ execute if data entity @s {HandItems:[{id:"minecraft:packed_ice"}]} run tag @e[t
 execute if data entity @s {HandItems:[{id:"minecraft:acacia_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_acacia_stairs
 execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_dark_oak_stairs
 execute if data entity @s {HandItems:[{id:"minecraft:slime_block"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_slime_block
-execute if data entity @s {HandItems:[{id:"minecraft:grass_path"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_grass_path
+execute if data entity @s {HandItems:[{id:"minecraft:dirt_path"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_dirt_path
 execute if data entity @s {HandItems:[{id:"minecraft:sunflower"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_sunflower
 execute if data entity @s {HandItems:[{id:"minecraft:lilac"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_lilac
 execute if data entity @s {HandItems:[{id:"minecraft:rose_bush"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_rose_bush
@@ -999,9 +999,15 @@ execute if data entity @s {HandItems:[{id:"minecraft:flowering_azalea"}]} run ta
 execute if data entity @s {HandItems:[{id:"minecraft:moss_carpet"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_moss_carpet
 execute if data entity @s {HandItems:[{id:"minecraft:moss_block"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_moss_block
 execute if data entity @s {HandItems:[{id:"minecraft:hanging_roots"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_hanging_roots
+
+
 execute if data entity @s {HandItems:[{id:"minecraft:big_dripleaf"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_big_dripleaf
 execute if data entity @s {HandItems:[{id:"minecraft:small_dripleaf"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_small_dripleaf
 
+
+
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_basalt"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_smooth_basalt
+execute if data entity @s {HandItems:[{id:"minecraft:infested_deepslate"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add infested_deepslate
 execute if data entity @s {HandItems:[{id:"minecraft:deepslate_bricks"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_deepslate_bricks
 execute if data entity @s {HandItems:[{id:"minecraft:cracked_deepslate_bricks"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_cracked_deepslate_bricks
 execute if data entity @s {HandItems:[{id:"minecraft:deepslate_tiles"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_deepslate_tiles
@@ -1099,6 +1105,7 @@ execute if data entity @s {HandItems:[{id:"minecraft:waxed_weathered_cut_copper_
 execute if data entity @s {HandItems:[{id:"minecraft:waxed_oxidized_cut_copper_slab"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_waxed_oxidized_cut_copper_slab
 execute if data entity @s {HandItems:[{id:"minecraft:powder_snow_bucket"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_powder_snow_bucket
 execute if data entity @s {HandItems:[{id:"minecraft:pointed_dripstone"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_pointed_dripstone
+execute if data entity @s {HandItems:[{id:"minecraft:light"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_light
 
 
 

@@ -15,3 +15,5 @@ data merge entity @s[name="QT_shield"] {Pose:{Head:[53.000f,-0.000f,0.000f]}}
 data merge entity @s[name="QT_trident"] {Pose:{Head:[-0.000f,180.000f,0.000f]}}
 data merge entity @s[name="QT_spyglass"] {Pose:{RightArm:[0.000f,-45.000f,-0.000f]}}
 data merge entity @s[name="QT_pointed_dripstone"] {Pose:{RightArm:[0.000f,0.000f,-80.000f]}}
+data merge entity @s[name="QT_big_dripleaf"] {Pose:{RightArm:[90.000f,-0.000f,180.000f]}}
+data merge entity @s[name="QT_small_dripleaf"] {Pose:{RightArm:[90.000f,-0.000f,180.000f]}}

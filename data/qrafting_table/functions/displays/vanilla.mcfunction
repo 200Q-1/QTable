@@ -313,7 +313,7 @@ execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:acacia_stairs"}]} run data merge entity @s {CustomName:'"QT_stairs"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:dark_oak_stairs"}]} run data merge entity @s {CustomName:'"QT_stairs"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:slime_block"}]} run data merge entity @s {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:grass_path"}]} run data merge entity @s {CustomName:'"QT_block"'}
+execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:dirt_path"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:sunflower"}]} run data merge entity @s {CustomName:'"QT_item"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:lilac"}]} run data merge entity @s {CustomName:'"QT_item"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:rose_bush"}]} run data merge entity @s {CustomName:'"QT_item"'}
@@ -1003,9 +1003,14 @@ execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:moss_carpet"}]} run data merge entity @s {CustomName:'"QT_thin_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:moss_block"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:hanging_roots"}]} run data merge entity @s {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:big_dripleaf"}]} run data merge entity @s {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:small_dripleaf"}]} run data merge entity @s {CustomName:'"QT_block"'}
 
+
+execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:big_dripleaf"}]} run data merge entity @s {CustomName:'"QT_big_dripleaf"'}
+execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:small_dripleaf"}]} run data merge entity @s {CustomName:'"QT_small_dripleaf"'}
+
+
+execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:smooth_basalt"}]} run data merge entity @s {CustomName:'"QT_block"'}
+execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:infested_deepslate"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:deepslate_bricks"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:cracked_deepslate_bricks"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:deepslate_tiles"}]} run data merge entity @s {CustomName:'"QT_block"'}
@@ -1103,3 +1108,5 @@ execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:waxed_oxidized_cut_copper_slab"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:powder_snow_bucket"}]} run data merge entity @s {CustomName:'"QT_item"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:pointed_dripstone"}]} run data merge entity @s {CustomName:'"QT_pointed_dripstone"'}
+execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:light"}]} run data merge entity @s {CustomName:'"QT_item"'}
+
