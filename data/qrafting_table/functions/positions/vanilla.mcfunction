@@ -18,4 +18,4 @@ execute if entity @s[name="QT_pointed_dripstone"] positioned ^-0.152 ^-0.618 ^-0
 execute if entity @s[name="QT_lightning_rod"] positioned ^0.188 ^-0.713 ^-0.297 run function qrafting_table:position
 execute if entity @s[name="QT_big_dripleaf"] positioned ^0.125 ^-0.644 ^0.313 run function qrafting_table:position
 execute if entity @s[name="QT_small_dripleaf"] positioned ^0.125 ^-0.737 ^0.281 run function qrafting_table:position
-execute if entity @s[name="QT_spore_blossom"] positioned ^-0.019 ^-0.863 ^-0.131 run function qrafting_table:position
+execute if entity @s[name="QT_spore_blossom"] positioned ^-0.019 ^-0.859 ^-0.131 run function qrafting_table:position
