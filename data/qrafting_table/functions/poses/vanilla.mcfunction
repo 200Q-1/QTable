@@ -18,3 +18,4 @@ data merge entity @s[name="QT_pointed_dripstone"] {Pose:{RightArm:[0.000f,0.000f
 data merge entity @s[name="QT_lightning_rod"] {Pose:{RightArm:[-90.000f,-0.000f,0.000f]}}
 data merge entity @s[name="QT_big_dripleaf"] {Pose:{RightArm:[90.000f,-0.000f,180.000f]}}
 data merge entity @s[name="QT_small_dripleaf"] {Pose:{RightArm:[90.000f,-0.000f,180.000f]}}
+data merge entity @s[name="QT_spore_blossom"] {Pose:{RightArm:[-15.000f,45.000f,180.000f]}}
