@@ -978,6 +978,7 @@ execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s
 
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:deepslate_coal_ore"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:deepslate_iron_ore"}]} run data merge entity @s {CustomName:'"QT_block"'}
+execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:copper_ore"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:deepslate_copper_ore"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:deepslate_gold_ore"}]} run data merge entity @s {CustomName:'"QT_block"'}
 execute unless data entity @s HandItems[0].tag.CustomModelData if data entity @s {HandItems:[{id:"minecraft:deepslate_redstone_ore"}]} run data merge entity @s {CustomName:'"QT_block"'}

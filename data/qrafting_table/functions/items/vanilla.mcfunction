@@ -978,6 +978,7 @@ execute if data entity @s {HandItems:[{id:"minecraft:rooted_dirt"}]} run tag @e[
 
 execute if data entity @s {HandItems:[{id:"minecraft:deepslate_coal_ore"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_deepslate_coal_ore
 execute if data entity @s {HandItems:[{id:"minecraft:deepslate_iron_ore"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_deepslate_iron_ore
+execute if data entity @s {HandItems:[{id:"minecraft:copper_ore"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_copper_ore
 execute if data entity @s {HandItems:[{id:"minecraft:deepslate_copper_ore"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_deepslate_copper_ore
 execute if data entity @s {HandItems:[{id:"minecraft:deepslate_gold_ore"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_deepslate_gold_ore
 execute if data entity @s {HandItems:[{id:"minecraft:deepslate_redstone_ore"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_deepslate_redstone_ore
