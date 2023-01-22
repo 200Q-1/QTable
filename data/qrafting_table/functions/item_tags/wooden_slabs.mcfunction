@@ -6,3 +6,4 @@ tag @s[tag=QT_acacia_slab] add QT_+wooden_slabs
 tag @s[tag=QT_dark_oak_slab] add QT_+wooden_slabs
 tag @s[tag=QT_crimson_slab] add QT_+wooden_slabs
 tag @s[tag=QT_warped_slab] add QT_+wooden_slabs
+tag @s[tag=QT_mangrove_slab] add QT_+wooden_slabs

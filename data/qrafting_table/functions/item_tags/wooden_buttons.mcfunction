@@ -6,3 +6,4 @@ tag @s[tag=QT_acacia_button] add QT_+wooden_buttons
 tag @s[tag=QT_dark_oak_button] add QT_+wooden_buttons
 tag @s[tag=QT_crimson_button] add QT_+wooden_buttons
 tag @s[tag=QT_warped_button] add QT_+wooden_buttons
+tag @s[tag=QT_mangrove_button] add QT_+wooden_buttons

@@ -6,3 +6,4 @@ tag @s[tag=QT_acacia_stairs] add QT_+wooden_stairs
 tag @s[tag=QT_dark_oak_stairs] add QT_+wooden_stairs
 tag @s[tag=QT_crimson_stairs] add QT_+wooden_stairs
 tag @s[tag=QT_warped_stairs] add QT_+wooden_stairs
+tag @s[tag=QT_mangrove_stairs] add QT_+wooden_stairs

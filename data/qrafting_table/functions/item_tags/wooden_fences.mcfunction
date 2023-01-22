@@ -6,3 +6,4 @@ tag @s[tag=QT_birch_fence] add QT_+wooden_fences
 tag @s[tag=QT_jungle_fence] add QT_+wooden_fences
 tag @s[tag=QT_crimson_fence] add QT_+wooden_fences
 tag @s[tag=QT_warped_fence] add QT_+wooden_fences
+tag @s[tag=QT_mangrove_fence] add QT_+wooden_fences

@@ -6,3 +6,4 @@ tag @s[tag=QT_acacia_planks] add QT_+planks
 tag @s[tag=QT_dark_oak_planks] add QT_+planks
 tag @s[tag=QT_crimson_planks] add QT_+planks
 tag @s[tag=QT_warped_planks] add QT_+planks
+tag @s[tag=QT_mangrove_planks] add QT_+planks

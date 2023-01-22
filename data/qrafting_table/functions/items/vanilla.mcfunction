@@ -1006,7 +1006,6 @@ execute if data entity @s {HandItems:[{id:"minecraft:big_dripleaf"}]} run tag @e
 execute if data entity @s {HandItems:[{id:"minecraft:small_dripleaf"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_small_dripleaf
 
 
-
 execute if data entity @s {HandItems:[{id:"minecraft:smooth_basalt"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_smooth_basalt
 execute if data entity @s {HandItems:[{id:"minecraft:infested_deepslate"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add infested_deepslate
 execute if data entity @s {HandItems:[{id:"minecraft:deepslate_bricks"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_deepslate_bricks
@@ -1108,6 +1107,56 @@ execute if data entity @s {HandItems:[{id:"minecraft:powder_snow_bucket"}]} run 
 execute if data entity @s {HandItems:[{id:"minecraft:pointed_dripstone"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_pointed_dripstone
 execute if data entity @s {HandItems:[{id:"minecraft:light"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_light
 
+#1.19
+execute if data entity @s {HandItems:[{id:"minecraft:mud"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mud
+execute if data entity @s {HandItems:[{id:"minecraft:packed_mud"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_packed_mud
+execute if data entity @s {HandItems:[{id:"minecraft:mud_bricks"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mud_bricks
+execute if data entity @s {HandItems:[{id:"minecraft:mud_brick_slab"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mud_bricks
+execute if data entity @s {HandItems:[{id:"minecraft:mud_brick_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mud_bricks
+execute if data entity @s {HandItems:[{id:"minecraft:mud_brick_wall"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mud_bricks
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_planks"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_planks
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_sapling"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_sapling
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_log"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_log
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_mangrove_log"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_stripped_mangrove_log
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_mangrove_wood"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_stripped_mangrove_wood
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_wood"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_wood
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_leaves"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_leaves
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_propagule"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_propagule
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_roots"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_roots
+execute if data entity @s {HandItems:[{id:"minecraft:muddy_mangrove_roots"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_muddy_mangrove_roots
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_slab"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_slab
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_pressure_plate"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_pressure_plate
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_fence"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_fence
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_trapdoor"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_trapdoor
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_fence_gate"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_fence_gate
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_button"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_button
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_door"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_door
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_sign"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_sign
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_boat"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mangrove_boat
+execute if data entity @s {HandItems:[{id:"minecraft:recovery_compass"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_recovery_compass
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_5"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_music_disc_5
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_otherside"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_music_disc_otherside
+execute if data entity @s {HandItems:[{id:"minecraft:echo_shard"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_echo_shard
+execute if data entity @s {HandItems:[{id:"minecraft:disc_fragment_5"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_disc_fragment_5
+execute if data entity @s {HandItems:[{id:"minecraft:sculk_shrieker"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_sculk_shrieker
+execute if data entity @s {HandItems:[{id:"minecraft:sculk"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_sculk
+execute if data entity @s {HandItems:[{id:"minecraft:sculk_catalyst"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_sculk_catalyst
+execute if data entity @s {HandItems:[{id:"minecraft:sculk_vein"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_sculk_vein
+execute if data entity @s {HandItems:[{id:"minecraft:reinforced_deepslate"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_reinforced_deepslate
+execute if data entity @s {HandItems:[{id:"minecraft:ochre_froglight"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_ochre_frogligt
+execute if data entity @s {HandItems:[{id:"minecraft:verdant_froglight"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_verdant_frogligt
+execute if data entity @s {HandItems:[{id:"minecraft:pearlescent_froglight"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_pearlescent_frogligt
+execute if data entity @s {HandItems:[{id:"minecraft:frogspawn"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_frogspawn
+execute if data entity @s {HandItems:[{id:"minecraft:tadpole_bucket"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_tadpole_bucket
+execute if data entity @s {HandItems:[{id:"minecraft:goat_horn"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_goat_horn
+execute if data entity @s {HandItems:[{id:"minecraft:allay_spawn_egg"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_allay_spawn_egg
+execute if data entity @s {HandItems:[{id:"minecraft:frog_spawn_egg"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_frog_spawn_egg
+execute if data entity @s {HandItems:[{id:"minecraft:warden_spawn_egg"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_warden_spawn_egg
+execute if data entity @s {HandItems:[{id:"minecraft:iron_golem_spawn_egg"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_iron_golem_spawn_egg
+execute if data entity @s {HandItems:[{id:"minecraft:snow_golem_spawn_egg"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_iron_golem_spawn_egg
+execute if data entity @s {HandItems:[{id:"minecraft:ender_dragon_spawn_egg"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_ender_dragon_spawn_egg
+execute if data entity @s {HandItems:[{id:"minecraft:wither_spawn_egg"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_wither_spawn_egg
 
 
 #特殊

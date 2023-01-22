@@ -6,3 +6,4 @@ tag @s[tag=QT_acacia_pressure_plate] add QT_+wooden_pressure_plates
 tag @s[tag=QT_dark_oak_pressure_plate] add QT_+wooden_pressure_plates
 tag @s[tag=QT_crimson_pressure_plate] add QT_+wooden_pressure_plates
 tag @s[tag=QT_warped_pressure_plate] add QT_+wooden_pressure_plates
+tag @s[tag=QT_mangrove_pressure_plate] add QT_+wooden_pressure_plates

@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 7,
-        "description": "3.0.2"
+        "pack_format": 10,
+        "description": "4.0.0"
     }
 }

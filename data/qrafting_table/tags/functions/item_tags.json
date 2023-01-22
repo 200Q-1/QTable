@@ -1,10 +1,11 @@
 {
-    "values":[
+    "values": [
         "qrafting_table:item_tags/acacia_logs",
         "qrafting_table:item_tags/anvil",
         "qrafting_table:item_tags/arrows",
         "qrafting_table:item_tags/banners",
         "qrafting_table:item_tags/beds",
+        "qrafting_table:item_tags/birch_logs",
         "qrafting_table:item_tags/boats",
         "qrafting_table:item_tags/wooden_buttons",
         "qrafting_table:item_tags/buttons",
@@ -44,11 +45,9 @@
         "qrafting_table:item_tags/mushrooms",
         "qrafting_table:item_tags/tulips",
         "qrafting_table:item_tags/dyes",
-
         "qrafting_table:item_tags/crimson_stems",
         "qrafting_table:item_tags/warped_stems",
         "qrafting_table:item_tags/soul_fire_base_blocks",
         "qrafting_table:item_tags/stone_tool_materials"
-
-	]
+    ]
 }
