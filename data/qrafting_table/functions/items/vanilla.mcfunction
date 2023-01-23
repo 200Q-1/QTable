@@ -7,7 +7,6 @@ execute if data entity @s {HandItems:[{id:"minecraft:polished_diorite"}]} run ta
 execute if data entity @s {HandItems:[{id:"minecraft:andesite"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_andesite
 execute if data entity @s {HandItems:[{id:"minecraft:polished_andesite"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_polished_andesite
 execute if data entity @s {HandItems:[{id:"minecraft:grass_block"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_grass_block
-execute if data entity @s {HandItems:[{id:"minecraft:dirt"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_dirt
 execute if data entity @s {HandItems:[{id:"minecraft:coarse_dirt"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_coarse_dirt
 execute if data entity @s {HandItems:[{id:"minecraft:podzol"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_podzol
 execute if data entity @s {HandItems:[{id:"minecraft:cobblestone"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_cobblestone
@@ -469,6 +468,7 @@ execute if data entity @s {HandItems:[{id:"minecraft:smooth_red_sandstone_stairs
 execute if data entity @s {HandItems:[{id:"minecraft:mossy_stone_brick_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mossy_stone_brick_stairs
 execute if data entity @s {HandItems:[{id:"minecraft:polished_diorite_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_polished_diorite_stairs
 execute if data entity @s {HandItems:[{id:"minecraft:mossy_cobblestone_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_mossy_cobblestone_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:brick_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_brick_stairs
 execute if data entity @s {HandItems:[{id:"minecraft:end_stone_brick_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_end_stone_brick_stairs
 execute if data entity @s {HandItems:[{id:"minecraft:stone_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_stone_stairs
 execute if data entity @s {HandItems:[{id:"minecraft:smooth_sandstone_stairs"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_smooth_sandstone_stairs
