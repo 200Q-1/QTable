@@ -1,15 +1,15 @@
-# 棒
+#棒
 execute as @a[gamemode=!spectator,nbt={SelectedItem:{id:"minecraft:stick"}}] at @s anchored eyes positioned ^ ^ ^ run function qrafting_table:stick_table/ground
 execute as @e[tag=QT_STTarget] unless entity @s[nbt=!{ArmorItems:[{Count:1b},{},{},{}]},nbt=!{HandItems:[{Count:1b},{}]}] unless data entity @s {HandItems:[{id:"minecraft:stick"}]} run data merge entity @s {Tags:[QT_STKeep],Invisible:false,Health:1.0f,Fire:20s}
 kill @e[tag=QT_STTarget,tag=!QT_STKeep]
 tag @e[tag=QT_STKeep] remove QT_STKeep
 
 # 作業台の設置を検知
-execute as @a[scores={QT_PlaceTable=..1}] at @s anchored eyes positioned ^ ^ ^ positioned ~ ~-1.26999998092651 ~ unless entity @s[distance=0] run tag @s add QT_Table_Place
+execute as @a[scores={QT_PlaceTable=..1}] at @s anchored eyes positioned ^ ^ ^ positioned ~ ~-1.27 ~ unless entity @s[distance=..0.001] run tag @s add QT_Table_Place
 execute as @a[tag=QT_Table_Place] at @s run summon area_effect_cloud ^ ^ ^ {Tags:[QT_Table_Place],Duration:0}
 execute at @a[tag=QT_Table_Place] positioned ^ ^ ^-1 facing ^ ^ ^-1 run tp @e[tag=QT_Table_Place,type=area_effect_cloud,limit=1] ~ ~ ~ ~ ~
 execute as @a[tag=QT_Table_Place] at @s anchored feet positioned ^ ^ ^5 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^2.5 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^1.25 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.625 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.3125 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.15625 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.078125 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.0390625 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.01953125 facing entity @s feet anchored eyes positioned ^ ^ ^ if block ~ ~ ~ crafting_table run tp @e[tag=QT_Table_Place,type=area_effect_cloud] ~ ~ ~ ~ ~
-# 召喚
+#召喚
 execute as @e[tag=QT_Table_Place,type=area_effect_cloud] at @s align xyz positioned ~0.5 ~ ~0.5 run function qrafting_table:summon
 
 # ピストン対策

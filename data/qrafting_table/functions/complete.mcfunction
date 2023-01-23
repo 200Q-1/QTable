@@ -1,9 +1,9 @@
-# 消費されたアイテムを消去
+#消費されたアイテムを消去
 tag @e[tag=QT_Target,distance=..0.625,limit=9] add QT_complete
 execute as @e[tag=QT_Target,distance=..0.625,limit=9] at @s run function #qrafting_table:positions
 tag @e[tag=QT_Complete,distance=..0.625,limit=9] remove QT_complete
 
-# リサイクル
+#リサイクル
 execute as @e[tag=QT_Target,distance=..0.625,limit=9] at @s positioned ~ ~-1 ~ run function #qrafting_table:recycle_items
 execute at @e[tag=QT_Target,distance=..0.625,limit=9] positioned ~ ~-1 ~ run tp @e[tag=QT_Slot,distance=..0.001,limit=1] ~ ~1 ~ ~ ~
 
