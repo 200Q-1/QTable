@@ -1,3 +1,5 @@
+#qrafting_table:ground↩
+
 # 棒カウント
 execute as @s store result score @s QT_StickCount run data get entity @s SelectedItem.Count 1
 scoreboard players operation @s QT_StickCount -= 8 QT_StickCount
@@ -15,4 +17,3 @@ tag @e[tag=QT_STTarget,distance=..0.1,nbt={HandItems:[{id:"minecraft:stick"},{}]
 execute if entity @e[tag=QT_STTarget,distance=..0.1,nbt={HandItems:[{id:"minecraft:stick"},{}]}] align xyz positioned ~0.5 ~ ~0.5 run function qrafting_table:summon
 execute if entity @e[tag=QT_STTarget,distance=..0.1,nbt={HandItems:[{id:"minecraft:stick"},{}]}] align xyz positioned ~0.5 ~1 ~0.5 run function qrafting_table:stick_table/summon
 execute align xyz positioned ~0.5 ~ ~0.5 run tag @e[tag=QT_Core,distance=..0.001] add QT_STTable
-

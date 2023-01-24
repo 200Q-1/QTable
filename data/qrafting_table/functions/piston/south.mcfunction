@@ -1,3 +1,5 @@
+#qrafting_table:piston↩
+
 tag @e[tag=QT_Target,distance=..0.625,limit=9] add QT_piston_south
 execute as @e[tag=QT_Target,distance=..0.625,limit=9] at @s run function #qrafting_table:positions
 tag @e[tag=QT_Target,distance=..0.625,limit=9] remove QT_piston_south

@@ -1,3 +1,7 @@
+#qrafting_table:main↩
+#qrafting_table:slot_select↩
+
+
 execute unless entity @s[nbt={HandItems:[{id:"minecraft:stone_button",tag:{display:{Name:'""'}}},{}]}] run data merge entity @s {Tags:[],Invisible:false,Health:1.0f,Fire:20s}
 
 execute if entity @s[nbt={ArmorItems:[{Count:1b},{},{},{}]}] run item replace entity @s weapon.offhand with air

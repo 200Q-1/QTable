@@ -1,3 +1,5 @@
+#qrafting_table:slot_select↩
+
 # 回転処理
 execute align xz positioned ~0.5 ~-1 ~0.5 run tag @e[tag=QT_Core,distance=..0.001,limit=1] remove QT_RotLock
 execute align xz positioned ~0.5 ~ ~0.5 as @e[tag=QT_Target,distance=..0.625,limit=9] at @s run function qrafting_table:rotation/rotation_lock
