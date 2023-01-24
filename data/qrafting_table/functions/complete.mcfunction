@@ -1,3 +1,5 @@
+#qrafting_table:main↩
+
 # 消費されたアイテムを消去
 tag @e[tag=QT_Target,distance=..0.625,limit=9] add QT_complete
 execute as @e[tag=QT_Target,distance=..0.625,limit=9] at @s run function #qrafting_table:positions

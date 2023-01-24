@@ -1,3 +1,6 @@
+#qrafting_table:complete↩
+#qrafting_table:item_set↩
+
 # 名前登録
 tag @e[tag=QT_Target,distance=..0.001,limit=1] remove QT_air
 function #qrafting_table:displays
@@ -16,3 +19,5 @@ execute as @e[tag=QT_Head,distance=..0.001,limit=1] run data modify entity @s Ha
 
 # 移動
 function #qrafting_table:positions
+
+playsound minecraft:entity.item_frame.rotate_item master @a ~ ~ ~ 1 0.5
