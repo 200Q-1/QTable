@@ -1,3 +1,4 @@
+[English & Download](https://modrinth.com/datapack/qtable)
 # QTable
 作業台の上に直接アイテムを設置できるようになるデータパックです。
 棒を使って簡易的な作業台を作ることもできます。
