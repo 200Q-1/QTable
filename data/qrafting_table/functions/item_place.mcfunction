@@ -16,3 +16,5 @@ execute as @e[tag=QT_Head,distance=..0.001,limit=1] run data modify entity @s Ha
 
 # 移動
 function #qrafting_table:positions
+
+playsound minecraft:entity.item_frame.rotate_item master @a ~ ~ ~ 1 0.5

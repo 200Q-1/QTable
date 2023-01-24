@@ -10,7 +10,7 @@ execute positioned ~ ~1 ~ run kill @e[tag=QT_Target,distance=..0.625,limit=9]
 execute positioned ~ ~1.3 ~ run kill @e[tag=QT_Crafted,distance=..0.001,limit=1]
 # 棒をkill
 execute if entity @s[tag=QT_Core,tag=QT_STTable] positioned ~ ~1 ~ run particle item stick ~ ~ ~ 0 0 0 0.1 36
-execute if entity @s[tag=QT_Core,tag=QT_STTable] positioned ~ ~1 ~ run playsound minecraft:entity.zombie.break_wooden_door block @a ~ ~ ~ 0.3 1.6
+execute if entity @s[tag=QT_Core,tag=QT_STTable] positioned ~ ~1 ~ run playsound minecraft:entity.zombie.break_wooden_door block @a ~ ~ ~ 0.2 1.8
 execute if entity @s[tag=QT_Core,tag=QT_STTable] positioned ~ ~1 ~ positioned ~0.307 ~-0.726 ~-0.236 run kill @e[tag=QT_STTable,distance=..0.001]
 execute if entity @s[tag=QT_Core,tag=QT_STTable] positioned ~ ~1 ~ positioned ~0.494 ~-0.726 ~-0.236 run kill @e[tag=QT_STTable,distance=..0.001]
 execute if entity @s[tag=QT_Core,tag=QT_STTable] positioned ~ ~1 ~ positioned ~0.396 ~-0.727 ~0.147 run kill @e[tag=QT_STTable,distance=..0.001]
