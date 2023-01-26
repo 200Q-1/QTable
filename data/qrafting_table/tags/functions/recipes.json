@@ -1,7 +1,6 @@
 {
     "values":[
         "qrafting_table:recipes/vanilla",
-        "qrafting_table:recipes/summon",
-        "qrafting_table:recipes/1.16"
+        "qrafting_table:recipes/summon"
 	]
 }
