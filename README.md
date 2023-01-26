@@ -29,4 +29,35 @@ function qrafting_table:uninstall
 (設置されているアイテムはドロップします。)
 
 ## レシピの追加
-**作成中**
+### STEP
+1. アイテムの登録
+2. アイテムの表示を設定
+3. レシピを追加
+
+### 1.アイテムの登録
+
+<details>
+<summary>レシピに使用するアイテムを登録します。</summary>
+
+* 任意の`.mcfunction`に以下のコマンドを入力します。
+```mcfunction
+execute if data entity @s {HandItems:[{id:ID,tag:{NBT}}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add 名前
+```
+`ID`アイテムID  
+`NBT`カスタムアイテムを識別するためのデータタグ  
+`名前`任意の名前  
+バニラのアイテムは`QT_stone`のように登録されています。  
+カスタムアイテムをバニラのレシピに使用したくないときは`remove 名前`でタグを削除してください。
+<br>
+* `.mcfunction`をQTableのtagsに追加します。  
+`YourDataPack\data\qrafting_table\tags\functions\items.json`
+
+```json
+{
+    "values": [
+        functionの場所
+    ]
+}
+```
+
+</details>
