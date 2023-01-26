@@ -32,11 +32,11 @@ function qrafting_table:uninstall
 
 <br>
 
-## レシピの追加
+## カスタムレシピ
 ### STEP
 1. アイテムの登録
-2. アイテムの表示を設定
-3. レシピを追加
+2. 表示位置の設定
+3. レシピの追加
 <br>
 
 ---
@@ -44,10 +44,20 @@ function qrafting_table:uninstall
 ### 1.アイテムの登録
 
 <details>
-<summary>レシピに使用するアイテムを登録します。</summary>
+<summary>カスタムアイテムなどを素材にする場合は、アイテム名を登録する必要があります。</summary>
 <br>
 
-* 任意の`.mcfunction`に以下のコマンドを入力します。
+* 任意の`.mcfunction`を作成して`YourDataPack\data\qrafting_table\tags\functions\items.json`に追加します。
+
+```json
+{
+    "values": [
+        functionの場所
+    ]
+}
+```
+
+* `.mcfunction`に以下のコマンドを入力します。
 ```mcfunction
 execute if data entity @s {HandItems:[{id:ID,tag:{NBT}}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add 名前
 ```
@@ -58,24 +68,13 @@ execute if data entity @s {HandItems:[{id:ID,tag:{NBT}}]} run tag @e[tag=QT_Targ
 バニラのアイテムは`QT_stone`のように登録されています。  
 カスタムアイテムをバニラのレシピに使用したくないときは`remove 名前`でタグを削除してください。
 <br>
-<br>
-
-* `.mcfunction`をQTableのtagsに追加します。  
-`YourDataPack\data\qrafting_table\tags\functions\items.json`
-
-```json
-{
-    "values": [
-        functionの場所
-    ]
-}
-```
 
 <details>
 <summary>アイテムをグルーピングすることもできます。</summary>
 <br>
 
-* 任意の`.mcfunction`に以下のコマンドを入力します。
+* 任意の`.mcfunction`を作成して`YourDataPack\data\qrafting_table\tags\functions\item_tags.json`に追加します。
+* `.mcfunction`に以下のコマンドを入力します。
 
 ```mcfunction
 tag @s[tag=名前] add グループ名
@@ -84,9 +83,6 @@ tag @s[tag=名前] add グループ名
 `名前`登録したアイテム名  
 `グループ名`任意のグループ名  
 <br>
-<br>
-
-* `.mcfunction`を`YourDataPack\data\qrafting_table\tags\functions\item_tags.json`に追加します。
 
 <details>
 <summary>デフォルトで以下のグループがあります。</summary>
@@ -149,22 +145,19 @@ tag @s[tag=名前] add グループ名
 </details>
 
 ---
-### 2.アイテムの表示を設定
+### 2.表示位置の設定
 <details>
 <summary>CustomModelDataなどを使用している場合、アイテムの位置と回転を設定する必要があります。</summary>
 
-#### テンプレートの設定
+#### 1.テンプレートの設定
 
-* 任意の`.mcfunction`に以下のコマンドを入力します。
+* 任意の`.mcfunction`を作成して`YourDataPack\data\qrafting_table\tags\functions\displays.json`に追加します。
+* `.mcfunction`に以下のコマンドを入力します。
 ```mcfunction
 data merge entity @e[tag=アイテム名,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"テンプレート名"'}
 ```
 `アイテム名`登録したアイテムの名前  
 `テンプレート名`任意の名前
-<br>
-<br>
-
-* `.mcfunction`を`YourDataPack\data\qrafting_table\tags\functions\displays.json`に追加します。
 
 <details>
 <summary>デフォルトで以下のテンプレートがあります。</summary>
@@ -196,30 +189,39 @@ data merge entity @e[tag=アイテム名,tag=QT_Target,distance=..0.001,limit=1]
 
 </details>
 <br>
-<br>
 
-#### テンプレートの位置設定
-* 任意の`.mcfunction`に以下のコマンドを入力します。
+#### 2.テンプレートの位置設定
+* 任意の`.mcfunction`を作成して`YourDataPack\data\qrafting_table\tags\functions\positions.json`に追加します。
+* `.mcfunction`に以下のコマンドを入力します。
 ```mcfunction
 execute if entity @s[name=テンプレート名] positioned ^ ^ ^ run function qrafting_table:position
 ```
 `テンプレート名`テンプレートの名前  
-`^ ^ ^` スロットの中心からの位置(中心から0.1以上離れている必要があります。)  
+`^ ^ ^` スロットの中心からの位置(中心から0.1以上離れている必要があります。)
 
-* `.mcfunction`を`YourDataPack\data\qrafting_table\tags\functions\positions.json`に追加します。
 <br>
 
-#### テンプレートの回転設定
-* 任意の`.mcfunction`に以下のコマンドを入力します。
+#### 3.テンプレートの回転設定
+* 任意の`.mcfunction`を作成して`YourDataPack\data\qrafting_table\tags\functions\poses.json`に追加します。
+* `.mcfunction`に以下のコマンドを入力します。
+
 ```mcfunction
 data merge entity @s[name=テンプレート名] {Pose:{RightArm:[0.0f,0.0f,0.0f]}}
 ```
 `テンプレート名`テンプレートの名前    
-`RightArm`Headを使うこともできます。  
+`RightArm`Headを使うこともできます。
 
-* `.mcfunction`を`YourDataPack\data\qrafting_table\tags\functions\poses.json`に追加します。
 <br>
 
 </details>
 
 ---
+### 3.レシピの追加
+#### レシピの種類
+* 位置が固定した定型レシピ
+* 位置が動かせる2x2の定型レシピ
+* 不定形レシピ
+<br>
+
+#### 位置が固定した定型レシピ
+
