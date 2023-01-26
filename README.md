@@ -217,11 +217,103 @@ data merge entity @s[name=テンプレート名] {Pose:{RightArm:[0.0f,0.0f,0.0f
 
 ---
 ### 3.レシピの追加
+<details>
+
+任意の`.mcfunction`を作成して`YourDataPack\data\qrafting_table\tags\functions\recipes.json`に追加します。
 #### レシピの種類
-* 位置が固定した定型レシピ
-* 位置が動かせる2x2の定型レシピ
+* 位置が固定した定形レシピ
+* 位置が動かせる定形レシピ
 * 不定形レシピ
+
+#### 位置が固定した定形レシピ
+`.mcfunction`に以下のコマンドを入力します。
+```mcfunction
+execute if data entity @s {ArmorItems:[{tag:{air:空スロット}}]} if entity @e[tag=スロット番号,tag=アイテム名,distance=..0.625,limit=1] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{アイテムデータ}}
+```
+| 入力箇所 | 説明 |
+| --- | --- |
+| `空スロット` | 空のスロットの数 |
+| `スロット番号` | スロットの場所を`QT_1`のように入力(配置はテンキーと同じ) |
+| `アイテム名` | 使用するアイテムの1.で登録した名前かグループ名 |
+| `アイテムデータ` | 完成品のidやNBT |
+
+使用するアイテムを増やすには`if entity @e[tag=スロット番号,tag=アイテム名,distance=..0.625,limit=1]`を追加します。
+<details>
+<summary>サンプル</summary>
+
+```mcfunction
+#ピストン
+execute if data entity @s {ArmorItems:[{tag:{air:0b}}]} if entity @e[tag=QT_1,tag=QT_+stone_tool_materials,distance=..0.625,limit=1] if entity @e[tag=QT_2,tag=QT_redstone,distance=..0.625,limit=1] if entity @e[tag=QT_3,tag=QT_+stone_tool_materials,distance=..0.625,limit=1] if entity @e[tag=QT_4,tag=QT_+stone_tool_materials,distance=..0.625,limit=1] if entity @e[tag=QT_5,tag=QT_iron_ingot,distance=..0.625,limit=1] if entity @e[tag=QT_6,tag=QT_+stone_tool_materials,distance=..0.625,limit=1] if entity @e[tag=QT_7,tag=QT_+planks,distance=..0.625,limit=1] if entity @e[tag=QT_8,tag=QT_+planks,distance=..0.625,limit=1] if entity @e[tag=QT_9,tag=QT_+planks,distance=..0.625,limit=1] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{id:"piston",Count:1b}}
+
+#ダイヤモンドのツルハシ
+execute if data entity @s {ArmorItems:[{tag:{air:4b}}]} if entity @e[tag=QT_2,tag=QT_stick,distance=..0.625,limit=1] if entity @e[tag=QT_5,tag=QT_stick,distance=..0.625,limit=1] if entity @e[tag=QT_7,tag=QT_diamond,distance=..0.625,limit=1] if entity @e[tag=QT_8,tag=QT_diamond,distance=..0.625,limit=1] if entity @e[tag=QT_9,tag=QT_diamond,distance=..0.625,limit=1] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{id:"diamond_pickaxe",Count:1b}}
+```
+</details>
 <br>
 
-#### 位置が固定した定型レシピ
+#### 位置が動かせる定形レシピ
+`.mcfunction`に以下のコマンドを入力します。
+```mcfunction
+execute if data entity @s {ArmorItems:[{tag:{air:空スロット}}]} at @e[tag=アイテム名,distance=..0.625,limit=9] positioned スロット移動 if entity @e[tag=アイテム名,distance=..0.001,limit=1] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{アイテムデータ}}
+```
+| 入力箇所 | 説明 |
+| --- | --- |
+| `空スロット` | 空のスロットの数 |
+| `アイテム名` | 使用するアイテムの1.で登録した名前かグループ名 |
+| `スロット移動` | `^ ^ ^0.1875`で上に`^0.1875 ^ ^`で左にスロットを移動します |
+| `アイテムデータ` | 完成品のidやNBT |
 
+使用するアイテムを増やすには`positioned スロット移動 if entity @e[tag=アイテム名,distance=..0.001,limit=1]`を追加します。
+<details>
+<summary>サンプル</summary>
+
+```mcfunction
+#松明
+execute if data entity @s {ArmorItems:[{tag:{air:7b}}]} at @e[tag=QT_stick,distance=..0.625,limit=9] positioned ^ ^ ^0.1875 if entity @e[tag=QT_+coals,distance=..0.001,limit=1] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{id:"torch",Count:4b}}
+
+#石切台
+execute if data entity @s {ArmorItems:[{tag:{air:5b}}]} at @e[tag=QT_stone,distance=..0.625,limit=9] positioned ^-0.1875 ^ ^ if entity @e[tag=QT_stone,distance=..0.001,limit=1] positioned ^-0.1875 ^ ^ if entity @e[tag=QT_stone,distance=..0.001,limit=1] positioned ^ ^ ^0.1875 positioned ^0.1875 ^ ^ if entity @e[tag=QT_iron_ingot,distance=..0.001,limit=1] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{id:"stonecutter",Count:1b}}
+```
+
+</details>
+<br>
+
+#### 不定形レシピ
+`.mcfunction`に以下のコマンドを入力します。
+```mcfunction
+execute if data entity @s {ArmorItems:[{tag:{air:空スロット}}]} if entity @e[tag=アイテム名,distance=..0.625,limit=9] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{アイテムデータ}}
+```
+| 入力箇所 | 説明 |
+| --- | --- |
+| `空スロット` | 空のスロットの数 |
+| `アイテム名` | 使用するアイテムの1.で登録した名前かグループ名 |
+| `アイテムデータ` | 完成品のidやNBT |
+
+使用するアイテムを増やすには`if entity @e[tag=アイテム名,distance=..0.625,limit=9]`を追加します。
+
+同じアイテムを複数使う場合は以下のコマンドを入力します。
+```mcfunction
+execute store result entity @s ArmorItems[0].tag.カウント名 byte 1 if entity @e[tag=アイテム名,distance=..0.625,limit=9]
+execute if data entity @s {ArmorItems:[{tag:{air:空スロット,カウント名:アイテム数}}]} if entity @e[tag=アイテム名,distance=..0.625,limit=9] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{アイテムデータ}}
+```
+| 入力箇所 | 説明 |
+| --- | --- |
+| `カウント名` | 数えるアイテムの名前。アイテム名とは異なっていても構いません。 |
+| `アイテム数` | 複数使用するアイテムの数を入力します。 |
+
+<details>
+<summary>サンプル</summary>
+
+```mcfunction
+#ファイヤーチャージ
+execute if data entity @s {ArmorItems:[{tag:{air:6b}}]} if entity @e[tag=QT_+coals,distance=..0.625,limit=9] if entity @e[tag=QT_gunpowder,distance=..0.625,limit=9] if entity @e[tag=QT_blaze_powder,distance=..0.625,limit=9] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{id:"fire_charge",Count:3b}}
+
+#白色のコンクリートパウダー
+execute store result entity @s ArmorItems[0].tag.sand byte 1 if entity @e[tag=QT_sand,distance=..0.625,limit=9]
+execute store result entity @s ArmorItems[0].tag.gravel byte 1 if entity @e[tag=QT_gravel,distance=..0.625,limit=9]
+
+execute if data entity @s {ArmorItems:[{tag:{air:0b,sand:4b,gravel:4b}}]} if entity @e[tag=QT_white_dye,distance=..0.625,limit=9] at @s run summon minecraft:item ~ ~1.3 ~ {Item:{id:"white_concrete_powder",Count:8b}}
+```
+
+</details>
+</details>
