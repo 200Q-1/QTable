@@ -11,3 +11,5 @@ tag @s[tag=QT_music_disc_ward] add QT_+music_discs
 tag @s[tag=QT_music_disc_11] add QT_+music_discs
 tag @s[tag=QT_music_disc_wait] add QT_+music_discs
 tag @s[tag=QT_music_disc_pigstep] add QT_+music_discs
+tag @s[tag=QT_music_disc_otherside] add QT_+music_discs
+tag @s[tag=QT_music_disc_5] add QT_+music_discs

@@ -6,3 +6,4 @@ tag @s[tag=QT_oak_trapdoor] add QT_+wooden_trapdoors
 tag @s[tag=QT_spruce_trapdoor] add QT_+wooden_trapdoors
 tag @s[tag=QT_crimson_trapdoor] add QT_+wooden_trapdoors
 tag @s[tag=QT_warped_trapdoor] add QT_+wooden_trapdoors
+tag @s[tag=QT_mangrove_trapdoor] add QT_+wooden_trapdoors
