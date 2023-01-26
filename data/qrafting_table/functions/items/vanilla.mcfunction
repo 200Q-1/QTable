@@ -1107,6 +1107,7 @@ execute if data entity @s {HandItems:[{id:"minecraft:waxed_oxidized_cut_copper_s
 execute if data entity @s {HandItems:[{id:"minecraft:powder_snow_bucket"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_powder_snow_bucket
 execute if data entity @s {HandItems:[{id:"minecraft:pointed_dripstone"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_pointed_dripstone
 execute if data entity @s {HandItems:[{id:"minecraft:light"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_light
+execute if data entity @s {HandItems:[{id:"minecraft:spore_blossom"}]} run tag @e[tag=QT_Target,distance=..0.001,limit=1] add QT_spore_blossom
 
 
 
