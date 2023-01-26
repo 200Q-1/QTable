@@ -133,4 +133,15 @@ tag @s[tag=名前] add グループ名
 * `.mcfunction`を`YourDataPack\data\qrafting_table\tags\functions\item_tags.json`に追加します。
 
 </details>
+<br>
+<br>
+</details>
+
+### 2.アイテムの表示を設定
+<details>
+<summary>CustomModelDataなどを使用している場合、アイテムの位置と回転を設定する必要があります。</summary>
+
+####表示のテンプレートを設定
+####テンプレートの位置設定
+####テンプレートの回転設定
 </details>
