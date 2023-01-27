@@ -29,3 +29,7 @@ function qrafting_table:uninstall
 ```
 このコマンドを実行するとQTableのすべてのスコアボードとエンティティを削除できます。
 (設置されているアイテムはドロップします。)
+<br>
+
+## レシピの追加
+[WIKI](https://github.com/200Q-1/QTable/wiki#%E3%83%AC%E3%82%B7%E3%83%94%E3%81%AE%E8%BF%BD%E5%8A%A0)
