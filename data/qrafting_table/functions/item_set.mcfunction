@@ -51,7 +51,7 @@ execute as @e[tag=QT_Slot,distance=..0.001,limit=1] at @s run function qrafting_
 # レシピ
 execute align xz positioned ~0.5 ~-1 ~0.5 run tag @e[tag=QT_Complete,distance=..0.001,limit=1] remove QT_Complete
 execute align xz positioned ~0.5 ~0.3 ~0.5 run kill @e[tag=QT_Crafted,distance=..0.001,limit=1]
-execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1 ~ store result entity @s ArmorItems[0].tag.air byte 1 if entity @e[tag=QT_air,distance=..0.625,limit=9]
+execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1 ~ store result entity @s data.air byte 1 if entity @e[tag=QT_air,distance=..0.625,limit=9]
 execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1 ~ run function #qrafting_table:recipes
 execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1.3 ~ run data merge entity @e[type=item,distance=..0.001,limit=1] {Tags:[QT_Crafted],NoGravity:true,PickupDelay:40s,Health:32767s,Age:-32768s}
 execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1.3 ~ if entity @e[tag=QT_Crafted,distance=..0.001,limit=1] run tag @s add QT_Complete

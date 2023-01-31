@@ -1,7 +1,5 @@
 #qrafting_table:aim↩
 
-#particle underwater ~ ~0.15 ~ 0.03125 0 0.03125 0 100
-#particle minecraft:dust 0.5 0.5 1 0.5 ~ ~ ~ 0 0 0 0 10
 particle minecraft:dust 0.5 0.5 1 0.25 ~ ~ ~ 0.03125 0 0.03125 0 20
 
 # クリック判定のアマスタを召喚

@@ -1,5 +1,9 @@
 #qrafting_table:main↩
 
 # スロットを見つけるまでループ
-execute if block ~ ~ ~ #qrafting_table:air at @e[tag=QT_Target,distance=..0.125,limit=1] run function qrafting_table:slot_select
-execute unless entity @e[tag=QT_Target,distance=..0.125,limit=1] if entity @s[distance=..3] positioned ^ ^ ^0.125 run function qrafting_table:aim
+#execute if block ~ ~ ~ #qrafting_table:air run tag @s add QT_getslot0
+#execute if entity @s[tag=QT_getslot0] run function qrafting_table:slot_position/slot_to_core
+
+execute if entity @s[distance=..3] run tag @s add QT_lookslot0
+execute if entity @s[tag=QT_lookslot0] run function qrafting_table:slot_position/slot_to_core
+

@@ -15,13 +15,12 @@ execute as @e[tag=QT_Table_Place,type=area_effect_cloud] at @s align xyz positio
 # ピストン対策
 execute as @e[tag=QT_Core,tag=!QT_STTable] at @s run function qrafting_table:piston/piston
 # スロット選択
-execute as @a[gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^1.5 if entity @e[tag=QT_Target,distance=..1.5,limit=1] positioned ^ ^ ^-1.5 positioned ~ ~0.075 ~ run function qrafting_table:aim
-
+execute as @a[gamemode=!spectator] at @s positioned ^ ^ ^1.5 if entity @e[tag=QT_Core,distance=..1.5,limit=1] positioned ^ ^ ^-1.5 anchored eyes positioned ^ ^ ^ positioned ~ ~0.075 ~ run function qrafting_table:aim
 # 完成品
 execute as @e[tag=QT_Complete] at @s positioned ~ ~1.3 ~ unless entity @e[tag=QT_Crafted,distance=..0.001,limit=1] positioned ~ ~-0.3 ~ run function qrafting_table:complete
 execute as @e[tag=QT_Crafted] at @s run function qrafting_table:crafted
 
-
+execute at @e[tag=QT_Core] run particle flame
 # リセット
 tag @a[tag=QT_Table_Place] remove QT_Table_Place
 scoreboard players reset @a QT_PlaceTable
@@ -33,3 +32,14 @@ tag @e[tag=QT_Keep] remove QT_Keep
 execute as @e[tag=QT_Core,tag=!QT_STTable] at @s unless block ~ ~ ~ crafting_table unless block ~ ~ ~ moving_piston run function qrafting_table:delete
 execute as @e[tag=QT_Core,tag=QT_STTable] at @s unless block ~ ~ ~ #qrafting_table:ground run function qrafting_table:delete
 clear @a[nbt={Inventory:[{id:"minecraft:stone_button",tag:{display:{Name:'""'}}}]}] stone_button{display:{Name:'""'}}
+
+tag @e[tag=QT_Slot1] remove QT_Slot1
+tag @e[tag=QT_Slot2] remove QT_Slot2
+tag @e[tag=QT_Slot3] remove QT_Slot3
+tag @e[tag=QT_Slot4] remove QT_Slot4
+tag @e[tag=QT_Slot5] remove QT_Slot5
+tag @e[tag=QT_Slot6] remove QT_Slot6
+tag @e[tag=QT_Slot7] remove QT_Slot7
+tag @e[tag=QT_Slot8] remove QT_Slot8
+tag @e[tag=QT_Slot9] remove QT_Slot9
+tag @e[tag=QT_Slot0] remove QT_Slot0
