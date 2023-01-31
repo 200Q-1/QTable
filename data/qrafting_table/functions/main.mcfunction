@@ -20,7 +20,6 @@ execute as @a[gamemode=!spectator] at @s positioned ^ ^ ^1.5 if entity @e[tag=QT
 execute as @e[tag=QT_Complete] at @s positioned ~ ~1.3 ~ unless entity @e[tag=QT_Crafted,distance=..0.001,limit=1] positioned ~ ~-0.3 ~ run function qrafting_table:complete
 execute as @e[tag=QT_Crafted] at @s run function qrafting_table:crafted
 
-execute at @e[tag=QT_Core] run particle flame
 # リセット
 tag @a[tag=QT_Table_Place] remove QT_Table_Place
 scoreboard players reset @a QT_PlaceTable
@@ -43,3 +42,4 @@ tag @e[tag=QT_Slot7] remove QT_Slot7
 tag @e[tag=QT_Slot8] remove QT_Slot8
 tag @e[tag=QT_Slot9] remove QT_Slot9
 tag @e[tag=QT_Slot0] remove QT_Slot0
+tag @e[tag=QT_LookSlot] remove QT_QT_LookSlot
