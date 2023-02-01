@@ -1,4 +1,4 @@
 #qrafting_table:item_set↩
 
-data merge entity @s {Rotation:[180f,0f]}
-execute rotated as @s run function qrafting_table:rotation/rotate
+tp @s ~ ~ ~ 180 0
+function qrafting_table:rotation/rotate

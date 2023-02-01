@@ -11,4 +11,3 @@ execute rotated 0 0 run summon marker ^-0.1875 ^1 ^ {Tags:["QT_air","QT_Target",
 execute rotated 0 0 run summon marker ^0.1875 ^1 ^0.1875 {Tags:["QT_air","QT_Target","QT_7"]}
 execute rotated 0 0 run summon marker ^ ^1 ^0.1875 {Tags:["QT_air","QT_Target","QT_8"]}
 execute rotated 0 0 run summon marker ^-0.1875 ^1 ^0.1875 {Tags:["QT_air","QT_Target","QT_9"]}
-say summon

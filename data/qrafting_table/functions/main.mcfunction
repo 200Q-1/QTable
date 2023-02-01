@@ -32,14 +32,3 @@ execute as @e[tag=QT_Core,tag=!QT_STTable] at @s unless block ~ ~ ~ crafting_tab
 execute as @e[tag=QT_Core,tag=QT_STTable] at @s unless block ~ ~ ~ #qrafting_table:ground run function qrafting_table:delete
 clear @a[nbt={Inventory:[{id:"minecraft:stone_button",tag:{display:{Name:'""'}}}]}] stone_button{display:{Name:'""'}}
 
-tag @e[tag=QT_Slot1] remove QT_Slot1
-tag @e[tag=QT_Slot2] remove QT_Slot2
-tag @e[tag=QT_Slot3] remove QT_Slot3
-tag @e[tag=QT_Slot4] remove QT_Slot4
-tag @e[tag=QT_Slot5] remove QT_Slot5
-tag @e[tag=QT_Slot6] remove QT_Slot6
-tag @e[tag=QT_Slot7] remove QT_Slot7
-tag @e[tag=QT_Slot8] remove QT_Slot8
-tag @e[tag=QT_Slot9] remove QT_Slot9
-tag @e[tag=QT_Slot0] remove QT_Slot0
-tag @e[tag=QT_LookSlot] remove QT_QT_LookSlot
