@@ -12,7 +12,6 @@ execute as @s[tag=QT_piston_west] as @e[tag=QT_Slot,distance=..0.001,limit=1] at
 execute as @s[tag=QT_piston_east] as @e[tag=QT_Slot,distance=..0.001,limit=1] at @s run tp @s ~1 ~ ~
 
 # 回転(rotation/rotation_lock)
-execute as @s[tag=QT_Rot] run say remove
 execute as @s[tag=QT_Rot] if entity @e[tag=QT_Slot,distance=..0.001,limit=1] run tag @s remove QT_Rot
 
 # アイテム設置(item_set)

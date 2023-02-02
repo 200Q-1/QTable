@@ -10,12 +10,14 @@ execute as @a[tag=QT_Table_Place] at @s run summon area_effect_cloud ^ ^ ^ {Tags
 execute at @a[tag=QT_Table_Place] positioned ^ ^ ^-1 facing ^ ^ ^-1 run tp @e[tag=QT_Table_Place,type=area_effect_cloud,limit=1] ~ ~ ~ ~ ~
 execute as @a[tag=QT_Table_Place] at @s anchored feet positioned ^ ^ ^5 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^2.5 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^1.25 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.625 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.3125 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.15625 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.078125 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.0390625 rotated as @e[tag=QT_Table_Place,sort=nearest] positioned ^ ^ ^0.01953125 facing entity @s feet anchored eyes positioned ^ ^ ^ if block ~ ~ ~ crafting_table run tp @e[tag=QT_Table_Place,type=area_effect_cloud] ~ ~ ~ ~ ~
 # 召喚
+execute at @e[tag=QT_Core] run particle happy_villager
 execute as @e[tag=QT_Table_Place,type=area_effect_cloud] at @s align xyz positioned ~0.5 ~ ~0.5 run function qrafting_table:summon
 
 # ピストン対策
 execute as @e[tag=QT_Core,tag=!QT_STTable] at @s run function qrafting_table:piston/piston
 # スロット選択
-execute as @a[gamemode=!spectator] at @s positioned ^ ^ ^1.5 if entity @e[tag=QT_Core,distance=..1.5,limit=1] positioned ^ ^ ^-1.5 anchored eyes positioned ^ ^ ^ positioned ~ ~0.075 ~ run function qrafting_table:aim
+execute as @a[gamemode=!spectator] at @s positioned ^ ^ ^1.5 if entity @e[tag=QT_Core,distance=..1.5,limit=1] positioned ^ ^ ^-1.5 anchored eyes positioned ^ ^ ^ positioned ^ ^0.075 ^ run function qrafting_table:aim
+
 # 完成品
 execute as @e[tag=QT_Complete] at @s positioned ~ ~1.3 ~ unless entity @e[tag=QT_Crafted,distance=..0.001,limit=1] positioned ~ ~-0.3 ~ run function qrafting_table:complete
 execute as @e[tag=QT_Crafted] at @s run function qrafting_table:crafted

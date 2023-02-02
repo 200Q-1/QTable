@@ -2,13 +2,13 @@
 #qrafting_table:item_set↩
 
 # 名前登録
-function qrafting_table:items/vanilla
-function #qrafting_table:items
-execute as @e[tag=QT_Target,distance=..0.001,limit=1] run function #qrafting_table:item_tags
+# function qrafting_table:items/vanilla
+# function #qrafting_table:items
+# execute as @e[tag=QT_Target,distance=..0.001,limit=1] run function #qrafting_table:item_tags
 
-tag @e[tag=QT_Target,distance=..0.001,limit=1] remove QT_air
-function #qrafting_table:displays
-data modify entity @s CustomName set from entity @e[tag=QT_Target,distance=..0.001,limit=1] CustomName
+# tag @e[tag=QT_Target,distance=..0.001,limit=1] remove QT_air
+# function #qrafting_table:displays
+# data modify entity @s CustomName set from entity @e[tag=QT_Target,distance=..0.001,limit=1] CustomName
 
 # ポーズ
 function #qrafting_table:poses
