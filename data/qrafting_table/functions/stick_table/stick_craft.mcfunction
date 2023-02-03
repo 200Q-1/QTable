@@ -2,8 +2,9 @@
 
 # 棒カウント
 execute as @s store result score @s QT_StickCount run data get entity @s SelectedItem.Count 1
+scoreboard players set 8 QT_StickCount 8
 scoreboard players operation @s QT_StickCount -= 8 QT_StickCount
-
+scoreboard players reset 8 QT_StickCount
 # 判定
 execute as @e[tag=QT_STTarget,distance=..0.3] run tp @s ~ ~ ~
 execute as @s[gamemode=!creative,scores={QT_StickCount=0..}] unless entity @e[tag=QT_STTarget,distance=..0.1] run summon armor_stand ~ ~ ~ {Tags:[QT_STTarget],Small:true,NoGravity:true,ShowArms:true,Invisible:true}

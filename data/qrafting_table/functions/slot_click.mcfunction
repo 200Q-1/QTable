@@ -20,27 +20,11 @@ execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=
 # data merge entity @e[tag=QT_TmpItem,nbt=!{Item:{id:"minecraft:stone_button",tag:{display:{Name:'""'}}}},distance=..0.001,limit=1] {Age:0s,Tags:[]}
 
 # アイテムセット
-execute positioned ~-0.1875 ~-1 ~0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~0.1875 ~1 ~-0.1875 run function qrafting_table:slot_position/core_to_slot_run
-execute positioned ~ ~-1 ~0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1 ~-0.1875 run function qrafting_table:slot_position/core_to_slot_run
-execute positioned ~0.1875 ~-1 ~0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~-0.1875 ~1 ~-0.1875 run function qrafting_table:slot_position/core_to_slot_run
-execute positioned ~-0.1875 ~-1 ~ rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~0.1875 ~1 ~ run function qrafting_table:slot_position/core_to_slot_run
-execute positioned ~ ~-1 ~ rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1 ~ run function qrafting_table:slot_position/core_to_slot_run
-execute positioned ~0.1875 ~-1 ~ rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~-0.1875 ~1 ~ run function qrafting_table:slot_position/core_to_slot_run
-execute positioned ~-0.1875 ~-1 ~-0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~0.1875 ~1 ~0.1875 run function qrafting_table:slot_position/core_to_slot_run
-execute positioned ~ ~-1 ~-0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1 ~0.1875 run function qrafting_table:slot_position/core_to_slot_run
-execute positioned ~0.1875 ~-1 ~-0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~-0.1875 ~1 ~0.1875 run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~ ~-1 ~ rotated as @e[tag=QT_Core,distance=..0.625,limit=1] positioned ~ ~1 ~ run function qrafting_table:slot_position/core_to_slot_run
 
 # 空クリック
-execute positioned ~ ~-1 ~ if entity @e[tag=QT_Core,tag=QT_STTable,distance=..0.625] positioned ~ ~1 ~ if entity @e[tag=QT_Target,tag=QT_air,distance=..0.001] positioned ~ ~-0.98 ~ as @e[tag=QT_Det,distance=..0.001,limit=1] at @s unless data entity @s ArmorItems[0].Count unless data entity @s ArmorItems[1].Count unless data entity @s ArmorItems[2].Count unless data entity @s ArmorItems[3].Count unless data entity @s HandItems[0].Count unless data entity @s HandItems[1].Count run tp @s ~ ~ ~ ~90 ~
-execute positioned ~ ~-1 ~ if entity @e[tag=QT_Core,tag=QT_STTable,distance=..0.625] positioned ~ ~1 ~ if entity @e[tag=QT_Target,tag=QT_air,distance=..0.001] positioned ~ ~-0.98 ~ as @e[tag=QT_Det,distance=..0.001,y_rotation=90..180,limit=1] unless data entity @s ArmorItems[0].Count unless data entity @s ArmorItems[1].Count unless data entity @s ArmorItems[2].Count unless data entity @s ArmorItems[3].Count unless data entity @s HandItems[0].Count unless data entity @s HandItems[1].Count run playsound minecraft:entity.armor_stand.fall block @a ~ ~1 ~ 1 1.3
-execute positioned ~ ~-1 ~ if entity @e[tag=QT_Core,tag=QT_STTable,distance=..0.625] positioned ~ ~1 ~ if entity @e[tag=QT_Target,tag=QT_air,distance=..0.001] positioned ~ ~-0.98 ~ as @e[tag=QT_Det,distance=..0.001,y_rotation=90..180,limit=1] unless data entity @s ArmorItems[0].Count unless data entity @s ArmorItems[1].Count unless data entity @s ArmorItems[2].Count unless data entity @s ArmorItems[3].Count unless data entity @s HandItems[0].Count unless data entity @s HandItems[1].Count run particle item stick ~ ~1 ~ 0 0 0 0.1 3
-execute positioned ~ ~-0.98 ~ as @e[tag=QT_Det,distance=..0.001,y_rotation=270,limit=1] positioned ~ ~-0.02 ~ as @e[tag=QT_Core,tag=QT_STTable,distance=..0.625] at @s run function qrafting_table:delete
-
+execute positioned ~ ~-0.98 ~ as @e[tag=QT_Det,distance=..0.001,y_rotation=270,limit=1] align xz positioned ~0.5 ~-0.02 ~0.5 as @e[tag=QT_Core,tag=QT_STTable,distance=..0.001] at @s run function qrafting_table:delete
 execute positioned ~ ~-0.98 ~ run data merge entity @e[tag=QT_Det,distance=..0.001,limit=1] {ArmorItems:[{},{},{},{}],HandItems:[{},{id:"minecraft:stone_button",Count:1b,tag:{display:{Name:'""'}}}]}
-
-
-
-
 
 # アイテム配置
 execute as @e[tag=QT_Slot,distance=..0.001,limit=1] at @s run function qrafting_table:item_place
