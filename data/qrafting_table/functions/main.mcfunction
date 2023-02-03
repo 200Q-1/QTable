@@ -18,8 +18,8 @@ execute as @e[tag=QT_Table_Place,type=area_effect_cloud] at @s align xyz positio
 execute as @a[gamemode=!spectator] at @s positioned ^ ^ ^1.5 if entity @e[tag=QT_Core,distance=..1.5,limit=1] positioned ^ ^ ^-1.5 anchored eyes positioned ^ ^0.075 ^ run function qrafting_table:aim
 
 # 完成品
-execute as @e[tag=QT_Complete] at @s positioned ~ ~1.3 ~ unless entity @e[tag=QT_Crafted,distance=..0.001,limit=1] positioned ~ ~-0.3 ~ run function qrafting_table:complete
-execute as @e[tag=QT_Crafted] at @s run function qrafting_table:crafted
+execute as @e[tag=QT_Complete] at @s positioned ~ ~1.3 ~ unless entity @e[tag=QT_Result,distance=..0.001,limit=1] at @s run function qrafting_table:table_clear
+execute as @e[tag=QT_Result] at @s run function qrafting_table:result
 
 # リセット
 tag @a[tag=QT_Table_Place] remove QT_Table_Place
