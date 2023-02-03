@@ -1,0 +1,4 @@
+execute if entity @s[y_rotation=-45..45] as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] at @s unless entity @s[y_rotation=0] run tp @s ~ ~ ~ 0 0
+execute if entity @s[y_rotation=45..135] as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] at @s unless entity @s[y_rotation=90] run tp @s ~ ~ ~ 90 0
+execute if entity @s[y_rotation=135..225] as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] at @s unless entity @s[y_rotation=180] run tp @s ~ ~ ~ 180 0
+execute if entity @s[y_rotation=-135..-45] as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] at @s unless entity @s[y_rotation=-90] run tp @s ~ ~ ~ -90 0

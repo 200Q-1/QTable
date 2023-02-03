@@ -1,6 +1,3 @@
-execute positioned ~ ~0.98 ~ run data modify entity @e[tag=QT_TmpItem,distance=..0.001,limit=1] Tags append from entity @s data.type.1
-execute positioned ~ ~0.98 ~ as @e[tag=QT_TmpItem,distance=..0.001,limit=1] run function #qrafting_table:positions
-
 execute if data entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[0].Count run data modify entity @s data.1 set from entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[0]
 execute if data entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[1].Count run data modify entity @s data.1 set from entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[1]
 execute if data entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[2].Count run data modify entity @s data.1 set from entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[2]

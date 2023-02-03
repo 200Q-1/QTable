@@ -14,6 +14,6 @@ execute as @s[gamemode=creative] run tag @e[tag=QT_STTarget,distance=..0.1] add 
 # 設置
 execute as @s[gamemode=!creative] if entity @e[tag=QT_STTarget,distance=..0.1,nbt={HandItems:[{id:"minecraft:stick"},{}]}] run clear @s stick 7
 tag @e[tag=QT_STTarget,distance=..0.1,nbt={HandItems:[{id:"minecraft:stick"},{}]}] remove QT_STKeep
-execute if entity @e[tag=QT_STTarget,distance=..0.1,nbt={HandItems:[{id:"minecraft:stick"},{}]}] align xyz positioned ~0.5 ~ ~0.5 run function qrafting_table:summon
+execute if entity @e[tag=QT_STTarget,distance=..0.1,nbt={HandItems:[{id:"minecraft:stick"},{}]}] align xyz positioned ~0.5 ~ ~0.5 run summon marker ~ ~ ~ {Tags:[QT_Core],Rotation:[0f,0f]}
 execute if entity @e[tag=QT_STTarget,distance=..0.1,nbt={HandItems:[{id:"minecraft:stick"},{}]}] align xyz positioned ~0.5 ~1 ~0.5 run function qrafting_table:stick_table/summon
 execute align xyz positioned ~0.5 ~ ~0.5 run tag @e[tag=QT_Core,distance=..0.001] add QT_STTable

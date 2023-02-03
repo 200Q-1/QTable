@@ -1,12 +1,15 @@
 #qrafting_table:main↩
 
 # アイテムドロップ
-execute positioned ~ ~1 ~ at @e[tag=QT_Target,tag=!QT_air,distance=..0.8,limit=9] run summon item ~ ~ ~ {Tags:[QT_DropItem],Item:{id:"minecraft:stone_button",Count:1b,tag:{display:{Name:'""'}}},PickupDelay:1s}
-execute positioned ~ ~1 ~ as @e[tag=QT_Target,tag=!QT_air,distance=..0.8,limit=9] at @s run data modify entity @e[tag=QT_DropItem,distance=..0.001,limit=1] CustomName set from entity @s CustomName
-execute positioned ~ ~1 ~ at @e[tag=QT_Target,distance=..0.625,limit=9] as @e[tag=QT_DropItem,distance=..0.001,limit=1] run function #qrafting_table:positions
-# スロットをkill
-execute positioned ~ ~1 ~ as @e[tag=QT_Target,distance=..0.625,limit=9] run tag @s add QT_Delete
-execute positioned ~ ~1 ~ as @e[tag=QT_Target,distance=..0.625,limit=9] at @s run function #qrafting_table:positions
+execute if data entity @s data.1.Count positioned ^0.1875 ^1 ^-0.1875 run function qrafting_table:drop
+execute if data entity @s data.2.Count positioned ^ ^1 ^-0.1875 run function qrafting_table:drop
+execute if data entity @s data.3.Count positioned ^-0.1875 ^1 ^-0.1875 run function qrafting_table:drop
+execute if data entity @s data.4.Count positioned ^0.1875 ^1 ^ run function qrafting_table:drop
+execute if data entity @s data.5.Count positioned ^ ^1 ^ run function qrafting_table:drop
+execute if data entity @s data.6.Count positioned ^-0.1875 ^1 ^ run function qrafting_table:drop
+execute if data entity @s data.7.Count positioned ^0.1875 ^1 ^0.1875 run function qrafting_table:drop
+execute if data entity @s data.8.Count positioned ^ ^1 ^0.1875 run function qrafting_table:drop
+execute if data entity @s data.9.Count positioned ^-0.1875 ^1 ^0.1875 run function qrafting_table:drop
 # ターゲットをkill
 execute positioned ~ ~1 ~ run kill @e[tag=QT_Target,distance=..0.625,limit=9]
 execute positioned ~ ~1.3 ~ run kill @e[tag=QT_Crafted,distance=..0.001,limit=1]

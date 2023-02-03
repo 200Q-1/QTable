@@ -19,4 +19,4 @@ tag @e[tag=QT_Slot8] remove QT_Slot8
 tag @e[tag=QT_Slot9] remove QT_Slot9
 
 #QT_lookslot
-execute as @s[tag=QT_lookslot0,tag=!QT_LookSlot] rotated as @s positioned ^ ^ ^0.125 run function qrafting_table:aim
+#execute as @s[tag=QT_lookslot0,tag=!QT_LookSlot] rotated as @s positioned ^ ^ ^0.125 run function qrafting_table:aim

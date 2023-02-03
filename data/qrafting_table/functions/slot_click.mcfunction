@@ -6,11 +6,12 @@ execute positioned ~ ~-0.98 ~ as @e[tag=QT_Det,distance=..0.001,limit=1] at @s r
 #execute align xz positioned ~0.5 ~-1 ~0.5 run tag @e[tag=QT_Core,distance=..0.001,limit=1] add QT_Rot
 # execute align xz positioned ~0.5 ~-1 ~0.5 run tag @e[tag=QT_Core,distance=..0.001,limit=1] add QT_SlotAll
 #execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,distance=..0.001,limit=1] at @s run function qrafting_table:slot_position/core_to_slot
-# execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,distance=..0.001,limit=1] unless data entity @s data.1.Count unless data entity @s data.2.Count unless data entity @s data.3.Count unless data entity @s data.4.Count unless data entity @s data.5.Count unless data entity @s data.6.Count unless data entity @s data.7.Count unless data entity @s data.8.Count unless data entity @s data.9.Count run tag @s add QT_Rot
-# execute if entity @s[y_rotation=-45..45] align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] unless entity @s[y_rotation=0] at @s run tp @s ~ ~ ~ 0 0
-# execute if entity @s[y_rotation=45..135] align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] unless entity @s[y_rotation=90] at @s run tp @s ~ ~ ~ 90 0
-# execute if entity @s[y_rotation=135..225] align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] unless entity @s[y_rotation=180] at @s run tp @s ~ ~ ~ 180 0
-# execute if entity @s[y_rotation=-135..-45] align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] unless entity @s[y_rotation=-90] at @s run tp @s ~ ~ ~ -90 0
+execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,distance=..0.001,limit=1] unless data entity @s data.1.Count unless data entity @s data.2.Count unless data entity @s data.3.Count unless data entity @s data.4.Count unless data entity @s data.5.Count unless data entity @s data.6.Count unless data entity @s data.7.Count unless data entity @s data.8.Count unless data entity @s data.9.Count run tag @s add QT_Rot
+execute if entity @s[y_rotation=-45..45] align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] unless entity @s[y_rotation=0] at @s run tp @s ~ ~ ~ 0 0
+execute if entity @s[y_rotation=45..135] align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] unless entity @s[y_rotation=90] at @s run tp @s ~ ~ ~ 90 0
+execute if entity @s[y_rotation=135..225] align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] unless entity @s[y_rotation=180] at @s run tp @s ~ ~ ~ 180 0
+execute if entity @s[y_rotation=-135..-45] align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] unless entity @s[y_rotation=-90] at @s run tp @s ~ ~ ~ -90 0
+execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] run tag @s remove QT_Rot
 
 # アイテムドロップ
 #execute unless entity @e[tag=QT_air,distance=..0.001,limit=1] run summon item ~ ~ ~ {Tags:[QT_TmpItem],Age:6000s,Item:{id:"stone_button",Count:1b,tag:{display:{Name:'""'}}},PickupDelay:1s}
@@ -19,9 +20,15 @@ execute positioned ~ ~-0.98 ~ as @e[tag=QT_Det,distance=..0.001,limit=1] at @s r
 # data merge entity @e[tag=QT_TmpItem,nbt=!{Item:{id:"minecraft:stone_button",tag:{display:{Name:'""'}}}},distance=..0.001,limit=1] {Age:0s,Tags:[]}
 
 # アイテムセット
-execute align xz positioned ~0.5 ~-1 ~0.5 run tag @e[tag=QT_Core,distance=..0.001,limit=1] add QT_item_copy
-execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,distance=..0.001,limit=1] at @s run function qrafting_table:slot_position/core_to_slot
-execute positioned ~ ~-0.98 ~ run tp @e[tag=QT_Slot,distance=..0.001,limit=1] ~ ~0.98 ~ ~ ~
+execute positioned ~-0.1875 ~-1 ~0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~0.1875 ~1 ~-0.1875 run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~ ~-1 ~0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1 ~-0.1875 run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~0.1875 ~-1 ~0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~-0.1875 ~1 ~-0.1875 run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~-0.1875 ~-1 ~ rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~0.1875 ~1 ~ run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~ ~-1 ~ rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1 ~ run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~0.1875 ~-1 ~ rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~-0.1875 ~1 ~ run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~-0.1875 ~-1 ~-0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~0.1875 ~1 ~0.1875 run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~ ~-1 ~-0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~ ~1 ~0.1875 run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~0.1875 ~-1 ~-0.1875 rotated as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ~-0.1875 ~1 ~0.1875 run function qrafting_table:slot_position/core_to_slot_run
 
 # 空クリック
 execute positioned ~ ~-1 ~ if entity @e[tag=QT_Core,tag=QT_STTable,distance=..0.625] positioned ~ ~1 ~ if entity @e[tag=QT_Target,tag=QT_air,distance=..0.001] positioned ~ ~-0.98 ~ as @e[tag=QT_Det,distance=..0.001,limit=1] at @s unless data entity @s ArmorItems[0].Count unless data entity @s ArmorItems[1].Count unless data entity @s ArmorItems[2].Count unless data entity @s ArmorItems[3].Count unless data entity @s HandItems[0].Count unless data entity @s HandItems[1].Count run tp @s ~ ~ ~ ~90 ~
