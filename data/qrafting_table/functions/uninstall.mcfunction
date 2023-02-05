@@ -7,3 +7,4 @@ kill @e[tag=QT_QT_Det]
 kill @e[tag=QT_Result]
 kill @e[tag=QT_STTable]
 kill @e[tag=QT_Stt]
+function qrafting_table:remove_recipe
