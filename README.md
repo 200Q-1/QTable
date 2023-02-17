@@ -15,6 +15,12 @@
 * 空のスロットを素手で3回右クリックすると破壊できます
 <br>
 
+## 依存関係(4.2.0以降)
+### 必須
++ [PrettyCrafter](https://github.com/Ai-Akaishi/PrettyCrafter)
++ [AiMath](https://github.com/Ai-Akaishi/AiMath)
+<br>
+
 ## 非対応のレシピ
 
 + 革防具の染色
