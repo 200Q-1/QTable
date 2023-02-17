@@ -1,4 +1,4 @@
-#qrafting_table:main↩
+#>qrafting_table:main
 # スロットを見つけるまでループ
 tag @s[tag=QT_look] remove QT_look
 execute positioned ~-0.1875 ~-1 ~0.1875 at @e[tag=QT_Core,distance=..0.125,limit=1] positioned ~0.1875 ~1 ~-0.1875 if entity @s[tag=!QT_look] if block ~ ~ ~ #qrafting_table:air run function qrafting_table:slot_select

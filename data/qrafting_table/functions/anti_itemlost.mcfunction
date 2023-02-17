@@ -1,6 +1,5 @@
-#qrafting_table:main↩
-#qrafting_table:slot_select↩
-
+#>qrafting_table:slot_select
+#>qrafting_table:main
 
 execute unless entity @s[nbt={HandItems:[{id:"minecraft:stone_button",tag:{display:{Name:'""'}}},{}]}] run data merge entity @s {Tags:[],Invisible:false,Health:1.0f,Fire:20s}
 

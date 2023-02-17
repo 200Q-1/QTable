@@ -14,12 +14,12 @@ execute as @a[tag=QT_Table_Place] at @s anchored feet positioned ^ ^ ^5 rotated 
 # 召喚
 execute as @e[tag=QT_Table_Place,type=area_effect_cloud] at @s align xyz positioned ~0.5 ~ ~0.5 run summon marker ~ ~ ~ {Tags:[QT_Core],Rotation:[0f,0f]}
 
-# スロット選択
-execute as @a[gamemode=!spectator] at @s positioned ^ ^ ^1.5 if entity @e[tag=QT_Core,distance=..1.5,limit=1] positioned ^ ^ ^-1.5 anchored eyes positioned ^ ^0.075 ^ run function qrafting_table:aim
-
 # 完成品
 execute as @e[tag=QT_Complete] at @s positioned ~ ~1.3 ~ unless entity @e[tag=QT_Result,distance=..0.001,limit=1] at @s run function qrafting_table:table_clear
 execute as @e[tag=QT_Result] at @s run function qrafting_table:result
+
+# スロット選択
+execute as @a[gamemode=!spectator] at @s positioned ^ ^ ^1.5 if entity @e[tag=QT_Core,distance=..1.5,limit=1] positioned ^ ^ ^-1.5 anchored eyes positioned ^ ^0.075 ^ run function qrafting_table:aim
 
 # リセット
 tag @a[tag=QT_Table_Place] remove QT_Table_Place

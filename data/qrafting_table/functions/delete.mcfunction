@@ -1,4 +1,4 @@
-#qrafting_table:main↩
+#>qrafting_table:main
 
 # アイテムドロップ
 execute positioned ^0.1875 ^1 ^-0.1875 run function qrafting_table:drop
@@ -11,7 +11,6 @@ execute positioned ^0.1875 ^1 ^0.1875 run function qrafting_table:drop
 execute positioned ^ ^1 ^0.1875 run function qrafting_table:drop
 execute positioned ^-0.1875 ^1 ^0.1875 run function qrafting_table:drop
 # ターゲットをkill
-execute positioned ~ ~1 ~ run kill @e[tag=QT_Target,distance=..0.625,limit=9]
 execute positioned ~ ~1.3 ~ run kill @e[tag=QT_Result,distance=..0.001,limit=1]
 # 棒をkill
 execute if entity @s[tag=QT_Core,tag=QT_STTable] positioned ~ ~1 ~ run particle item stick ~ ~ ~ 0 0 0 0.1 36

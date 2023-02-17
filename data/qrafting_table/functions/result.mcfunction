@@ -1,4 +1,4 @@
-#qrafting_table:main↩
+#>qrafting_table:main
 
 # 完成したアイテムを実体化
 execute positioned ~ ~-1.3 ~ if entity @e[tag=QT_Core,tag=!QT_Complete,distance=..0.001,limit=1] run kill @s

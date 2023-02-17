@@ -1,1 +1,1 @@
-  execute if data storage pretty_crafter: recipe_space{Name:"QTable"} run data modify storage qtable_recipe: recipes set from storage pretty_crafter: recipes
+execute if data storage pretty_crafter: recipe_space{Name:"QTable"} run data modify storage qtable_recipe: recipes set from storage pretty_crafter: recipes

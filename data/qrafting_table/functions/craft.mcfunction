@@ -1,12 +1,14 @@
-data modify storage pretty_crafter: items.0.0 set from entity @s data.0.0
-data modify storage pretty_crafter: items.0.1 set from entity @s data.0.1
-data modify storage pretty_crafter: items.0.2 set from entity @s data.0.2
-data modify storage pretty_crafter: items.1.0 set from entity @s data.1.0
-data modify storage pretty_crafter: items.1.1 set from entity @s data.1.1
-data modify storage pretty_crafter: items.1.2 set from entity @s data.1.2
-data modify storage pretty_crafter: items.2.0 set from entity @s data.2.0
-data modify storage pretty_crafter: items.2.1 set from entity @s data.2.1
-data modify storage pretty_crafter: items.2.2 set from entity @s data.2.2
+#>qrafting_table:slot_click
+
+data modify storage pretty_crafter: items.0.0 set from entity @s data.slot.0.0
+data modify storage pretty_crafter: items.0.1 set from entity @s data.slot.0.1
+data modify storage pretty_crafter: items.0.2 set from entity @s data.slot.0.2
+data modify storage pretty_crafter: items.1.0 set from entity @s data.slot.1.0
+data modify storage pretty_crafter: items.1.1 set from entity @s data.slot.1.1
+data modify storage pretty_crafter: items.1.2 set from entity @s data.slot.1.2
+data modify storage pretty_crafter: items.2.0 set from entity @s data.slot.2.0
+data modify storage pretty_crafter: items.2.1 set from entity @s data.slot.2.1
+data modify storage pretty_crafter: items.2.2 set from entity @s data.slot.2.2
 data modify storage pretty_crafter: recipe_space set value {Name:"QTable"}
 function #pretty_crafter:find
 execute if data storage pretty_crafter: found run tag @s add QT_Complete

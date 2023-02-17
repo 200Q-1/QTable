@@ -1,3 +1,4 @@
+#>qrafting_table:slot_position/core_to_slot_run
 execute if data entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[0].Count run data modify entity @s data.slot.1.1 set from entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[0]
 execute if data entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[1].Count run data modify entity @s data.slot.1.1 set from entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[1]
 execute if data entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[2].Count run data modify entity @s data.slot.1.1 set from entity @e[tag=QT_Det,distance=..0.001,limit=1] ArmorItems[2]

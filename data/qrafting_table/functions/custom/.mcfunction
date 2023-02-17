@@ -9,5 +9,7 @@ execute if data storage pretty_crafter: found.recipe.custom{Name:"QTable",type:"
 execute if data storage pretty_crafter: found.recipe.custom{Name:"QTable",type:"crafting_special_firework_star"} run function qrafting_table:custom/crafting_special_firework_star
 execute if data storage pretty_crafter: found.recipe.custom{Name:"QTable",type:"crafting_special_firework_star_fade"} run function qrafting_table:custom/crafting_special_firework_star_fade
 execute if data storage pretty_crafter: found.recipe.custom{Name:"QTable",type:"crafting_special_firework_rocket"} run function qrafting_table:custom/crafting_special_firework_rocket
-execute if data storage pretty_crafter: found.recipe.custom{Name:"QTable",type:"cake"} run function qrafting_table:custom/cake
+execute if data storage pretty_crafter: found.recipe.custom{Name:"QTable",type:"milk_bucket"} run function qrafting_table:custom/milk_bucket
+execute if data storage pretty_crafter: found.recipe.custom{Name:"QTable",type:"honey_bottle"} run function qrafting_table:custom/honey_bottle
+
 

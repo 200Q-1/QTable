@@ -1,4 +1,4 @@
-#>qrafting_table:stick_craft
+#>qrafting_table:stick_table/stick_craft
 
 summon armor_stand ~0.307 ~-0.726 ~-0.236 {Tags:[QT_Stt],HandItems:[{id:"minecraft:stick",Count:1b},{}],Pose:{RightArm:[-10.000f,-0.000f,90.000f]},Small:true,Marker:true,NoGravity:true,Invisible:true,Fire:32767s}
 summon armor_stand ~0.494 ~-0.726 ~-0.236 {Tags:[QT_Stt],HandItems:[{id:"minecraft:stick",Count:1b},{}],Pose:{RightArm:[-10.000f,-0.000f,90.000f]},Small:true,Marker:true,NoGravity:true,Invisible:true,Fire:32767s}
