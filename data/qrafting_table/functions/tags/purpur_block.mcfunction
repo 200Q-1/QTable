@@ -1,0 +1,1 @@
+data modify storage pretty_crafter: recipe.tags append value {tag:"#purpur_block",ids:["minecraft:purpur_block","minecraft:purpur_pillar"]}

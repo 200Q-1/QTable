@@ -1,0 +1,1 @@
+data modify entity @s data.result.tag merge from entity @s data.slot.1.1.tag

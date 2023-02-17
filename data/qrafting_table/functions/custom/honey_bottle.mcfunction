@@ -1,0 +1,9 @@
+execute if data entity @s data.slot.0.0{id:"minecraft:honey_bottle"} run data modify entity @s data.return.0.0 set value {id:"minecraft:glass_bottle",Count:1b}
+execute if data entity @s data.slot.0.1{id:"minecraft:honey_bottle"} run data modify entity @s data.return.0.1 set value {id:"minecraft:glass_bottle",Count:1b}
+execute if data entity @s data.slot.0.2{id:"minecraft:honey_bottle"} run data modify entity @s data.return.0.2 set value {id:"minecraft:glass_bottle",Count:1b}
+execute if data entity @s data.slot.1.0{id:"minecraft:honey_bottle"} run data modify entity @s data.return.1.0 set value {id:"minecraft:glass_bottle",Count:1b}
+execute if data entity @s data.slot.1.1{id:"minecraft:honey_bottle"} run data modify entity @s data.return.1.1 set value {id:"minecraft:glass_bottle",Count:1b}
+execute if data entity @s data.slot.1.2{id:"minecraft:honey_bottle"} run data modify entity @s data.return.1.2 set value {id:"minecraft:glass_bottle",Count:1b}
+execute if data entity @s data.slot.2.0{id:"minecraft:honey_bottle"} run data modify entity @s data.return.2.0 set value {id:"minecraft:glass_bottle",Count:1b}
+execute if data entity @s data.slot.2.1{id:"minecraft:honey_bottle"} run data modify entity @s data.return.2.1 set value {id:"minecraft:glass_bottle",Count:1b}
+execute if data entity @s data.slot.2.2{id:"minecraft:honey_bottle"} run data modify entity @s data.return.2.2 set value {id:"minecraft:glass_bottle",Count:1b}

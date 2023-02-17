@@ -1,0 +1,1 @@
+data modify storage pretty_crafter: recipe.tags append value {tag:"#dark_oak_logs",ids:["minecraft:dark_oak_log","minecraft:dark_oak_wood","minecraft:stripped_dark_oak_log","minecraft:stripped_dark_oak_wood"]}

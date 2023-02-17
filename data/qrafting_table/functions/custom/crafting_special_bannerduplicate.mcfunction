@@ -1,0 +1,2 @@
+execute if data storage pretty_crafter: found.items[].tag unless data storage pretty_crafter: found.items[0].tag run data modify storage pretty_crafter: found.recipe.result.tag set from storage pretty_crafter: found.items[].tag
+execute if data storage pretty_crafter: found.items[].tag unless data storage pretty_crafter: found.items[1].tag run data modify storage pretty_crafter: found.recipe.result.tag set from storage pretty_crafter: found.items[].tag

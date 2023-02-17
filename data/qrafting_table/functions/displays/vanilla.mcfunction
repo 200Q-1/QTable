@@ -1,1162 +1,1163 @@
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_granite,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_granite,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diorite,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_diorite,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_andesite,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_andesite,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_grass_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dirt,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_coarse_dirt,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_podzol,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cobblestone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_planks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_planks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_planks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_planks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_planks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_planks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_sapling,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_sapling,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_sapling,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_sapling,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_sapling,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_sapling,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bedrock,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sand,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_sand,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gravel,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gold_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_coal_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_oak_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_spruce_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_birch_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_jungle_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_acacia_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_dark_oak_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_oak_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_spruce_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_birch_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_jungle_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_acacia_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_dark_oak_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_leaves,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_leaves,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_leaves,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_leaves,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_leaves,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_leaves,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sponge,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wet_sponge,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lapis_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lapis_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dispenser,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sandstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chiseled_sandstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cut_sandstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_note_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_powered_rail,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_detector_rail,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sticky_piston,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cobweb,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_grass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_fern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_bush,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_seagrass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sea_pickle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_piston,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_wool,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dandelion,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_poppy,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_orchid,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_allium,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_azure_bluet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_tulip,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_tulip,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_tulip,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_tulip,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oxeye_daisy,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cornflower,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lily_of_the_valley,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wither_rose,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_mushroom,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_mushroom,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gold_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_stone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sandstone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_petrified_oak_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cobblestone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_quartz_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_sandstone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purpur_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_prismarine_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_prismarine_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_prismarine_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_quartz,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_red_sandstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_sandstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_stone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tnt,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bookshelf,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mossy_cobblestone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_obsidian,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_torch,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_end_rod,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_end_rod"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chorus_plant,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chorus_flower,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purpur_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purpur_pillar,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purpur_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chest,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crafting_table,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_farmland,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_furnace,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ladder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_rail,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cobblestone_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lever,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_redstone_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_redstone_torch,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_snow,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ice,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_snow_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cactus,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_clay,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jukebox,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pumpkin,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_carved_pumpkin,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherrack,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_soul_sand,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glowstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jack_o_lantern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_infested_stone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_infested_cobblestone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_infested_stone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_infested_mossy_stone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_infested_cracked_stone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_infested_chiseled_stone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mossy_stone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cracked_stone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chiseled_stone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_mushroom_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_mushroom_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mushroom_stem,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_bars,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_melon,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_vine,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_fence_gate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_fence_gate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_fence_gate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_fence_gate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_fence_gate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_fence_gate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mycelium,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lily_pad,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_brick_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_enchanting_table,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_end_portal_frame,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_end_stone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_end_stone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_redstone_lamp,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sandstone_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_emerald_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ender_chest,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tripwire_hook,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_emerald_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_beacon,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cobblestone_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mossy_cobblestone_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brick_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_prismarine_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_sandstone_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mossy_stone_brick_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_granite_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_brick_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_brick_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_andesite_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_nether_brick_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sandstone_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_end_stone_brick_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diorite_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_anvil,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chipped_anvil,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_damaged_anvil,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_trapped_chest,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_weighted_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_heavy_weighted_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_daylight_detector,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_redstone_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_quartz_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_hopper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chiseled_quartz_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_quartz_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_quartz_pillar,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_quartz_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_activator_rail,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dropper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_hay_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_coal_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_packed_ice,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_slime_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dirt_path,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sunflower,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lilac,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_rose_bush,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_peony,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tall_grass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_large_fern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_stained_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_stained_glass_pane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_prismarine,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_prismarine_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_prismarine,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_prismarine_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_prismarine_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_prismarine_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sea_lantern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_sandstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chiseled_red_sandstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cut_red_sandstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_sandstone_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magma_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_wart_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_nether_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bone_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_observer,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_shulker_box,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_glazed_terracotta,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_concrete,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_concrete_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_turtle_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_tube_coral_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_brain_coral_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_fire_coral_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_horn_coral_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tube_coral_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brain_coral_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bubble_coral_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_fire_coral_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_horn_coral_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tube_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brain_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bubble_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_fire_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_horn_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_tube_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_brain_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_bubble_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_fire_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_horn_coral,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tube_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brain_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bubble_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_fire_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_horn_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_tube_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_brain_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_bubble_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_fire_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dead_horn_coral_fan,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_ice,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_conduit,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_granite_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_red_sandstone_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mossy_stone_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_diorite_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mossy_cobblestone_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_end_stone_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_sandstone_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_quartz_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_granite_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_andesite_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_nether_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_andesite_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diorite_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_granite_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_red_sandstone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mossy_stone_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_diorite_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mossy_cobblestone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_end_stone_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_sandstone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_quartz_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_granite_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_andesite_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_nether_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_andesite_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diorite_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_scaffolding,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_repeater,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_comparator,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_composter,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_turtle_helmet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_scute,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_shovel,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_pickaxe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_axe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_flint_and_steel,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_apple,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bow,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bow"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_arrow,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_coal,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_charcoal,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_ingot,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gold_ingot,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_sword,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wooden_sword,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wooden_shovel,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wooden_pickaxe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wooden_axe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_sword,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_shovel,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_pickaxe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_axe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_sword,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_shovel,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_pickaxe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_axe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stick,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bowl,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mushroom_stew,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_sword,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_shovel,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_pickaxe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_axe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_string,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_feather,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gunpowder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wooden_hoe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stone_hoe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_hoe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_hoe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_hoe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wheat_seeds,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wheat,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bread,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_leather_helmet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_leather_chestplate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_leather_leggings,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_leather_boots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chainmail_helmet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chainmail_chestplate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chainmail_leggings,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chainmail_boots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_helmet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_chestplate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_leggings,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_boots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_helmet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_chestplate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_leggings,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_boots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_helmet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_chestplate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_leggings,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_boots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_flint,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_porkchop,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cooked_porkchop,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_painting,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_apple,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_enchanted_golden_apple,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_sign,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_sign,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_sign,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_sign,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_sign,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_sign,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_water_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lava_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_milk_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_minecart,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_saddle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_redstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_snowball,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oak_boat,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spruce_boat,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_birch_boat,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jungle_boat,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_acacia_boat,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dark_oak_boat,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_leather,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pufferfish_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_salmon_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cod_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tropical_fish_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brick,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_clay_ball,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sugar_cane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_kelp,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dried_kelp_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bamboo,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_paper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_book,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_slime_ball,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chest_minecart,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_furnace_minecart,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_compass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_fishing_rod,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld_rod"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_clock,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glowstone_dust,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cod,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_salmon,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tropical_fish,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pufferfish,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cooked_cod,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cooked_salmon,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ink_sac,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cocoa_beans,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lapis_lazuli,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bone_meal,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_dye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sugar,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cake,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_bed,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bed"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cookie,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_shears,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_melon_slice,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dried_kelp,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pumpkin_seeds,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_melon_seeds,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_beef,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chicken,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cooked_chicken,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_rotten_flesh,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ender_pearl,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blaze_rod,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ghast_tear,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gold_nugget,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_wart,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glass_bottle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_potion,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spider_eye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_fermented_spider_eye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blaze_powder,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magma_cream,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brewing_stand,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cauldron,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ender_eye,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glistering_melon_slice,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bat_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blaze_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cat_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cave_spider_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chicken_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cod_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cow_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_creeper_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dolphin_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_donkey_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_drowned_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_elder_guardian_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_enderman_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_endermite_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_evoker_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ghast_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_guardian_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_horse_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_husk_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_illager_beast_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_llama_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magma_cube_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mooshroom_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mule_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ocelot_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_panda_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_parrot_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_phantom_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pig_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pillager_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polar_bear_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pufferfish_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_rabbit_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_salmon_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sheep_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_shulker_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_silverfish_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_skeleton_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_skeleton_horse_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_slime_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spider_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_squid_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stray_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tropical_fish_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_turtle_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_vex_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_villager_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_vindicator_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_witch_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wither_skeleton_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wolf_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_zombie_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_zombie_horse_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_zombie_pigman_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_zombie_villager_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_experience_bottle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_fire_charge,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_writable_book,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_written_book,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_emerald,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_item_frame,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_flower_pot,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_carrot,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_potato,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_baked_potato,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_poisonous_potato,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_map,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_filled_map,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_carrot,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_skeleton_skull,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_skull"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wither_skeleton_skull,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_skull"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_zombie_head,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_skull"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_player_head,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_skull"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_creeper_head,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_skull"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dragon_head,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_dragon_head"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_carrot_on_a_stick,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld_rod"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_star,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pumpkin_pie,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_firework_rocket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_firework_star,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_enchanted_book,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_brick,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_quartz,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tnt_minecart,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_hopper_minecart,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_prismarine_shard,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_prismarine_crystals,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_rabbit,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cooked_rabbit,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_rabbit_stew,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_rabbit_foot,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_rabbit_hide,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_armor_stand,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_horse_armor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_golden_horse_armor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_diamond_horse_armor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_leather_horse_armor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lead,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_name_tag,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mutton,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cooked_mutton,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_banner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_banner"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_end_crystal,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chorus_fruit,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_popped_chorus_fruit,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_beetroot,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_beetroot_seeds,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_beetroot_soup,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dragon_breath,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_splash_potion,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tipped_arrow,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spectral_arrow,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lingering_potion,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_shield,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_shield"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_elytra,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_totem_of_undying,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_shulker_shell,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_nugget,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_13,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_cat,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_blocks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_chirp,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_far,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_mall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_mellohi,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_stal,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_strad,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_ward,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_11,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_wait,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_trident,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_trident"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_phantom_membrane,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nautilus_shell,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_heart_of_the_sea,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crossbow,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_bow"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_loom,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_flower_banner_pattern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_creeper_banner_pattern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_skull_banner_pattern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mojang_banner_pattern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_globe_banner_pattern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_barrel,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smoker,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blast_furnace,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cartography_table,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_fletching_table,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_grindstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lectern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smithing_table,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stonecutter,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bell,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lantern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sweet_berries,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_campfire,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_honeycomb,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bee_nest,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_beehive,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_honey_bottle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_honey_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_honeycomb_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cut_sandstone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cut_red_sandstone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_red_sandstone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spawner,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_command_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chain_command_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_repeating_command_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_structure_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_jigsaw,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dragon_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_command_block_minecart,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_knowledge_book,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_debug_stick,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
+execute unless data entity @s HandItems[].Count run data remove entity @s Tags[]
+execute if data entity @s {HandItems:[{id:"minecraft:stone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:granite"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_granite"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:diorite"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_diorite"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:andesite"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_andesite"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:grass_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dirt"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:coarse_dirt"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:podzol"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cobblestone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oak_planks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_planks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:birch_planks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_planks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_planks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_planks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oak_sapling"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_sapling"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:birch_sapling"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_sapling"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_sapling"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_sapling"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bedrock"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:sand"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_sand"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:gravel"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:gold_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:iron_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:coal_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oak_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:birch_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_oak_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_spruce_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_birch_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_jungle_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_acacia_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_dark_oak_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_oak_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_spruce_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_birch_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_jungle_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_acacia_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_dark_oak_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oak_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:birch_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oak_leaves"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_leaves"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:birch_leaves"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_leaves"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_leaves"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_leaves"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:sponge"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:wet_sponge"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lapis_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lapis_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dispenser"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:sandstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:chiseled_sandstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cut_sandstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:note_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:powered_rail"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:detector_rail"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:sticky_piston"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cobweb"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:grass"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:fern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_bush"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:seagrass"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:sea_pickle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:piston"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:white_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:orange_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lime_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:pink_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:gray_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purple_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blue_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brown_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:green_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:black_wool"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dandelion"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:poppy"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:blue_orchid"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:allium"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:azure_bluet"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:red_tulip"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:orange_tulip"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:white_tulip"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pink_tulip"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:oxeye_daisy"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cornflower"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lily_of_the_valley"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:wither_rose"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:brown_mushroom"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:red_mushroom"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:gold_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:iron_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oak_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:birch_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_stone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:sandstone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:petrified_oak_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cobblestone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stone_brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:nether_brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:quartz_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_sandstone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purpur_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:prismarine_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:prismarine_brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_prismarine_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_quartz"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_red_sandstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_sandstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_stone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:tnt"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:bookshelf"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mossy_cobblestone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:obsidian"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:torch"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:end_rod"}]} run data modify entity @s Tags[] set value QT_end_rod
+execute if data entity @s {HandItems:[{id:"minecraft:chorus_plant"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:chorus_flower"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purpur_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purpur_pillar"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purpur_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:oak_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:chest"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crafting_table"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:farmland"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:furnace"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:ladder"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:rail"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cobblestone_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:lever"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:stone_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:oak_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:birch_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:redstone_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:redstone_torch"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:stone_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:snow"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:ice"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:snow_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cactus"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:clay"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:jukebox"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oak_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:birch_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:pumpkin"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:carved_pumpkin"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:netherrack"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:soul_sand"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:glowstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:jack_o_lantern"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oak_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:birch_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:infested_stone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:infested_cobblestone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:infested_stone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:infested_mossy_stone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:infested_cracked_stone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:infested_chiseled_stone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mossy_stone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cracked_stone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:chiseled_stone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brown_mushroom_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_mushroom_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mushroom_stem"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:iron_bars"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:melon"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:vine"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:oak_fence_gate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_fence_gate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:birch_fence_gate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_fence_gate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_fence_gate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_fence_gate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:stone_brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mycelium"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lily_pad"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:nether_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:nether_brick_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:nether_brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:enchanting_table"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:end_portal_frame"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:end_stone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:end_stone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:redstone_lamp"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:sandstone_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:emerald_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:ender_chest"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:tripwire_hook"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:emerald_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:birch_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:beacon"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cobblestone_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mossy_cobblestone_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:brick_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:prismarine_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:red_sandstone_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mossy_stone_brick_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:granite_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:stone_brick_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:nether_brick_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:andesite_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:red_nether_brick_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:sandstone_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:end_stone_brick_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:diorite_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:oak_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:birch_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:anvil"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:chipped_anvil"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:damaged_anvil"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:trapped_chest"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:light_weighted_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:heavy_weighted_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:daylight_detector"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:redstone_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:nether_quartz_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:hopper"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chiseled_quartz_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:quartz_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:quartz_pillar"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:quartz_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:activator_rail"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dropper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:white_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:orange_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lime_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:pink_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:gray_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purple_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blue_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brown_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:green_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:black_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:iron_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:hay_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:white_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:orange_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:lime_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:pink_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:gray_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:purple_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:blue_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:brown_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:green_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:black_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:coal_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:packed_ice"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:slime_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dirt_path"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:sunflower"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lilac"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:rose_bush"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:peony"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:tall_grass"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:large_fern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:white_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:orange_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lime_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:pink_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:gray_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purple_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blue_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brown_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:green_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:black_stained_glass"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:white_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:orange_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lime_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pink_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:gray_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:purple_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:blue_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:brown_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:green_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:red_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:black_stained_glass_pane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:prismarine"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:prismarine_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dark_prismarine"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:prismarine_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:prismarine_brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:dark_prismarine_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:sea_lantern"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_sandstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:chiseled_red_sandstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cut_red_sandstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_sandstone_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:magma_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:nether_wart_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_nether_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:bone_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:observer"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:white_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:orange_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lime_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:pink_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:gray_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purple_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blue_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brown_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:green_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:black_shulker_box"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:white_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:orange_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lime_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:pink_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:gray_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purple_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blue_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brown_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:green_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:black_glazed_terracotta"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:white_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:orange_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lime_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:pink_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:gray_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purple_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blue_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brown_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:green_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:black_concrete"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:white_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:orange_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lime_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:pink_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:gray_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:purple_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blue_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brown_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:green_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:black_concrete_powder"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:turtle_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_tube_coral_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dead_brain_coral_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dead_fire_coral_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dead_horn_coral_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:tube_coral_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:brain_coral_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:bubble_coral_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:fire_coral_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:horn_coral_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:tube_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:brain_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bubble_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:fire_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:horn_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_tube_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_brain_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_bubble_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_fire_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_horn_coral"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:tube_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:brain_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bubble_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:fire_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:horn_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_tube_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_brain_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_bubble_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_fire_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dead_horn_coral_fan"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:blue_ice"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:conduit"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_granite_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_red_sandstone_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mossy_stone_brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:polished_diorite_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mossy_cobblestone_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:end_stone_brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:stone_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_sandstone_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_quartz_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:granite_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:andesite_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:red_nether_brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:polished_andesite_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:diorite_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:polished_granite_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_red_sandstone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mossy_stone_brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_diorite_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mossy_cobblestone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:end_stone_brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_sandstone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_quartz_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:granite_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:andesite_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:red_nether_brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_andesite_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:diorite_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:scaffolding"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:iron_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:oak_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:birch_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:repeater"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:comparator"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:composter"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:turtle_helmet"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:scute"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_shovel"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:iron_pickaxe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:iron_axe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:flint_and_steel"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:apple"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bow"}]} run data modify entity @s Tags[] set value QT_bow
+execute if data entity @s {HandItems:[{id:"minecraft:arrow"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:coal"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:charcoal"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:diamond"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_ingot"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:gold_ingot"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_sword"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:wooden_sword"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:wooden_shovel"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:wooden_pickaxe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:wooden_axe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:stone_sword"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:stone_shovel"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:stone_pickaxe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:stone_axe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_sword"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_shovel"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_pickaxe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_axe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:stick"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:bowl"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:mushroom_stew"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:golden_sword"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:golden_shovel"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:golden_pickaxe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:golden_axe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:string"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:feather"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:gunpowder"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:wooden_hoe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:stone_hoe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:iron_hoe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_hoe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:golden_hoe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:wheat_seeds"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:wheat"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bread"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:leather_helmet"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:leather_chestplate"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:leather_leggings"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:leather_boots"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chainmail_helmet"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chainmail_chestplate"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chainmail_leggings"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chainmail_boots"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_helmet"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_chestplate"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_leggings"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_boots"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_helmet"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_chestplate"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_leggings"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_boots"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:golden_helmet"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:golden_chestplate"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:golden_leggings"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:golden_boots"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:flint"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:porkchop"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cooked_porkchop"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:painting"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:golden_apple"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:enchanted_golden_apple"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:oak_sign"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_sign"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:birch_sign"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_sign"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_sign"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_sign"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:water_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lava_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:milk_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:minecart"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:saddle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:redstone"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:snowball"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:oak_boat"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:spruce_boat"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:birch_boat"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:jungle_boat"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:acacia_boat"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dark_oak_boat"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:leather"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pufferfish_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:salmon_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cod_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:tropical_fish_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:brick"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:clay_ball"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:sugar_cane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:kelp"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dried_kelp_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:bamboo"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:paper"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:book"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:slime_ball"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chest_minecart"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:furnace_minecart"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:compass"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:fishing_rod"}]} run data modify entity @s Tags[] set value QT_handheld_rod
+execute if data entity @s {HandItems:[{id:"minecraft:clock"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:glowstone_dust"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cod"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:salmon"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:tropical_fish"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pufferfish"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cooked_cod"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cooked_salmon"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:ink_sac"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:red_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:green_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cocoa_beans"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lapis_lazuli"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:purple_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:gray_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pink_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lime_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:orange_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bone_meal"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:blue_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:brown_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:black_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:white_dye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bone"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:sugar"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cake"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:white_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:orange_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:lime_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:pink_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:gray_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:purple_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:blue_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:brown_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:green_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:red_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:black_bed"}]} run data modify entity @s Tags[] set value QT_bed
+execute if data entity @s {HandItems:[{id:"minecraft:cookie"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:shears"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:melon_slice"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dried_kelp"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pumpkin_seeds"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:melon_seeds"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:beef"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chicken"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cooked_chicken"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:rotten_flesh"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:ender_pearl"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:blaze_rod"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:ghast_tear"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:gold_nugget"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:nether_wart"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:glass_bottle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:potion"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:spider_eye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:fermented_spider_eye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:blaze_powder"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:magma_cream"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:brewing_stand"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cauldron"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:ender_eye"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:glistering_melon_slice"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bat_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:blaze_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cat_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cave_spider_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chicken_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cod_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cow_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:creeper_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dolphin_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:donkey_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:drowned_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:elder_guardian_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:enderman_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:endermite_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:evoker_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:ghast_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:guardian_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:horse_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:husk_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:illager_beast_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:llama_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:magma_cube_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:mooshroom_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:mule_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:ocelot_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:panda_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:parrot_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:phantom_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pig_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pillager_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:polar_bear_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pufferfish_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:rabbit_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:salmon_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:sheep_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:shulker_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:silverfish_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:skeleton_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:skeleton_horse_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:slime_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:spider_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:squid_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:stray_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:tropical_fish_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:turtle_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:vex_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:villager_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:vindicator_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:witch_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:wither_skeleton_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:wolf_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:zombie_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:zombie_horse_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:zombie_pigman_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:zombie_villager_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:experience_bottle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:fire_charge"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:writable_book"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:written_book"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:emerald"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:item_frame"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:flower_pot"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:carrot"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:potato"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:baked_potato"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:poisonous_potato"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:map"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:filled_map"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:golden_carrot"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:skeleton_skull"}]} run data modify entity @s Tags[] set value QT_skull
+execute if data entity @s {HandItems:[{id:"minecraft:wither_skeleton_skull"}]} run data modify entity @s Tags[] set value QT_skull
+execute if data entity @s {HandItems:[{id:"minecraft:zombie_head"}]} run data modify entity @s Tags[] set value QT_skull
+execute if data entity @s {HandItems:[{id:"minecraft:player_head"}]} run data modify entity @s Tags[] set value QT_skull
+execute if data entity @s {HandItems:[{id:"minecraft:creeper_head"}]} run data modify entity @s Tags[] set value QT_skull
+execute if data entity @s {HandItems:[{id:"minecraft:dragon_head"}]} run data modify entity @s Tags[] set value QT_dragon_head
+execute if data entity @s {HandItems:[{id:"minecraft:carrot_on_a_stick"}]} run data modify entity @s Tags[] set value QT_handheld_rod
+execute if data entity @s {HandItems:[{id:"minecraft:nether_star"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pumpkin_pie"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:firework_rocket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:firework_star"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:enchanted_book"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:nether_brick"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:quartz"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:tnt_minecart"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:hopper_minecart"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:prismarine_shard"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:prismarine_crystals"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:rabbit"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cooked_rabbit"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:rabbit_stew"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:rabbit_foot"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:rabbit_hide"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:armor_stand"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_horse_armor"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:golden_horse_armor"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:diamond_horse_armor"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:leather_horse_armor"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lead"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:name_tag"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:mutton"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cooked_mutton"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:white_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:orange_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:lime_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:pink_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:gray_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:purple_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:blue_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:brown_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:green_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:red_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:black_banner"}]} run data modify entity @s Tags[] set value QT_banner
+execute if data entity @s {HandItems:[{id:"minecraft:end_crystal"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chorus_fruit"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:popped_chorus_fruit"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:beetroot"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:beetroot_seeds"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:beetroot_soup"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:dragon_breath"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:splash_potion"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:tipped_arrow"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:spectral_arrow"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lingering_potion"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:shield"}]} run data modify entity @s Tags[] set value QT_shield
+execute if data entity @s {HandItems:[{id:"minecraft:elytra"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:totem_of_undying"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:shulker_shell"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_nugget"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_13"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_cat"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_blocks"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_chirp"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_far"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_mall"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_mellohi"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_stal"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_strad"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_ward"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_11"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_wait"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:trident"}]} run data modify entity @s Tags[] set value QT_trident
+execute if data entity @s {HandItems:[{id:"minecraft:phantom_membrane"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:nautilus_shell"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:heart_of_the_sea"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:crossbow"}]} run data modify entity @s Tags[] set value QT_bow
+execute if data entity @s {HandItems:[{id:"minecraft:loom"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:flower_banner_pattern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:creeper_banner_pattern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:skull_banner_pattern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:mojang_banner_pattern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:globe_banner_pattern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:barrel"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smoker"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blast_furnace"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cartography_table"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:fletching_table"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:grindstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lectern"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smithing_table"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stonecutter"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:bell"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lantern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:sweet_berries"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:campfire"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:honeycomb"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bee_nest"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:beehive"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:honey_bottle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:honey_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:honeycomb_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cut_sandstone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cut_red_sandstone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_red_sandstone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:spawner"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:command_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:chain_command_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:repeating_command_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:structure_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:jigsaw"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dragon_egg"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:command_block_minecart"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:knowledge_book"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:debug_stick"}]} run data modify entity @s Tags[] set value QT_handheld
 #1.16
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_nylium,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_nylium,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_planks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_planks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_gold_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_stem,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_stem,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_crimson_stem,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_warped_stem,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_crimson_hyphae,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_warped_hyphae,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_hyphae,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_hyphae,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_fungus,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_fungus,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_roots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_roots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_nether_sprouts,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_weeping_vines,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_twisting_vines,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_soul_soil,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_basalt,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_basalt,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_soul_torch,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chain,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cracked_nether_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chiseled_nether_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_fence_gate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_fence_gate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_quartz_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_wart_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_sword,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_shovel,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_pickaxe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_axe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_hoe,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_helmet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_chestplate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_leggings,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_boots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_hoglin_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_piglin_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_strider_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_zoglin_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_zombified_piglin_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_fungus_on_a_stick,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_handheld_rod"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_pigstep,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_piglin_banner_pattern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crimson_sign,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warped_sign,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_soul_lantern,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_soul_campfire,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_shroomlight,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lodestone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ancient_debris,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_ingot,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_netherite_scrap,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_target,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_crying_obsidian,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blackstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blackstone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blackstone_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blackstone_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gilded_blackstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chiseled_polished_blackstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_blackstone_brick_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cracked_polished_blackstone_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_respawn_anchor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_piglin_brute_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_nylium"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:warped_nylium"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_planks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:warped_planks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:nether_gold_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_stem"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:warped_stem"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_crimson_stem"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_warped_stem"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_crimson_hyphae"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_warped_hyphae"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_hyphae"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:warped_hyphae"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:warped_fungus"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_fungus"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_roots"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:warped_roots"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:nether_sprouts"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:weeping_vines"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:twisting_vines"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:warped_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:warped_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:warped_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:soul_soil"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:basalt"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_basalt"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:soul_torch"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:chain"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:warped_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:cracked_nether_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:chiseled_nether_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_fence_gate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:warped_fence_gate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:warped_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:quartz_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:warped_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:warped_wart_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:warped_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_sword"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_shovel"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_pickaxe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_axe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_hoe"}]} run data modify entity @s Tags[] set value QT_handheld
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_helmet"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_chestplate"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_leggings"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_boots"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:hoglin_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:piglin_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:strider_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:zoglin_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:zombified_piglin_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:warped_fungus_on_a_stick"}]} run data modify entity @s Tags[] set value QT_handheld_rod
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_pigstep"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:piglin_banner_pattern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:crimson_sign"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:warped_sign"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:soul_lantern"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:soul_campfire"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:shroomlight"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:lodestone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:ancient_debris"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_ingot"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:netherite_scrap"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:target"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:crying_obsidian"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blackstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blackstone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:blackstone_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:blackstone_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:gilded_blackstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:chiseled_polished_blackstone"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone_brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone_brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:polished_blackstone_brick_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:cracked_polished_blackstone_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:respawn_anchor"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:piglin_brute_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
 
 #1.17
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cobbled_deepslate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_deepslate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_calcite,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tuff,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_dripstone_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_rooted_dirt,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cobbled_deepslate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_deepslate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:calcite"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:tuff"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:dripstone_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:rooted_dirt"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_coal_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_iron_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_copper_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_copper_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_gold_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_redstone_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_emerald_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_lapis_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_diamond_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_coal_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_coal_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_coal_ore,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_coal_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_iron_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:copper_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_copper_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_gold_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_redstone_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_emerald_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_lapis_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_diamond_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_coal_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_coal_ore"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_coal_ore"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_raw_iron_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_raw_copper_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_raw_gold_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_amethyst_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_copper_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:raw_iron_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:raw_copper_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:raw_gold_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:amethyst_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:copper_block"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_azalea_leaves,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_flowering_azalea_leaves,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tinted_glass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:azalea_leaves"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:flowering_azalea_leaves"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:tinted_glass"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_azalea,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_flowering_azalea,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_moss_carpet,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_moss_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_hanging_roots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
+execute if data entity @s {HandItems:[{id:"minecraft:azalea"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:flowering_azalea"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:moss_carpet"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:moss_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:hanging_roots"}]} run data modify entity @s Tags[] set value QT_item
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_big_dripleaf,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_big_dripleaf"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_small_dripleaf,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_small_dripleaf"'}
+execute if data entity @s {HandItems:[{id:"minecraft:big_dripleaf"}]} run data modify entity @s Tags[] set value QT_big_dripleaf
+execute if data entity @s {HandItems:[{id:"minecraft:small_dripleaf"}]} run data modify entity @s Tags[] set value QT_small_dripleaf
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_smooth_basalt,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_infested_deepslate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cracked_deepslate_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_tiles,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cracked_deepslate_tiles,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_chiseled_deepslate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:smooth_basalt"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:infested_deepslate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cracked_deepslate_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_tiles"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cracked_deepslate_tiles"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:chiseled_deepslate"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glow_lichen,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cobbled_deepslate_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_deepslate_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_brick_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_tile_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
+execute if data entity @s {HandItems:[{id:"minecraft:glow_lichen"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cobbled_deepslate_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:polished_deepslate_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_brick_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_tile_wall"}]} run data modify entity @s Tags[] set value QT_stairs
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cobbled_deepslate_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_deepslate_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_tile_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cobbled_deepslate_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_polished_deepslate_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_deepslate_tile_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:cobbled_deepslate_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:polished_deepslate_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_tile_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:cobbled_deepslate_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:polished_deepslate_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:deepslate_tile_slab"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lightning_rod,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_lightning_rod"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sculk_sensor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:lightning_rod"}]} run data modify entity @s Tags[] set value QT_lightning_rod
+execute if data entity @s {HandItems:[{id:"minecraft:sculk_sensor"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_raw_iron,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_raw_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_copper_ingot,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_raw_gold,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
+execute if data entity @s {HandItems:[{id:"minecraft:raw_iron"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:raw_copper"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:copper_ingot"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:raw_gold"}]} run data modify entity @s Tags[] set value QT_item
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_axolotl_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_bundle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glow_ink_sac,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glow_item_frame,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_glow_berries,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
+execute if data entity @s {HandItems:[{id:"minecraft:axolotl_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:bundle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:glow_ink_sac"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:glow_item_frame"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:glow_berries"}]} run data modify entity @s Tags[] set value QT_item
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_white_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_orange_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_magenta_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_blue_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_yellow_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_lime_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pink_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_gray_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light_gray_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cyan_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_purple_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_blue_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_brown_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_green_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_red_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_black_candle,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
+execute if data entity @s {HandItems:[{id:"minecraft:candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:white_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:orange_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:magenta_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:light_blue_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:yellow_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:lime_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pink_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:gray_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:light_gray_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:cyan_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:purple_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:blue_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:brown_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:green_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:red_candle"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:black_candle"}]} run data modify entity @s Tags[] set value QT_item
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_amethyst_shard,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_budding_amethyst,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_small_amethyst_bud,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_medium_amethyst_bud,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_large_amethyst_bud,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_amethyst_cluster,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spyglass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_spyglass"'}
+execute if data entity @s {HandItems:[{id:"minecraft:amethyst_shard"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:budding_amethyst"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:small_amethyst_bud"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:medium_amethyst_bud"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:large_amethyst_bud"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:amethyst_cluster"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:spyglass"}]} run data modify entity @s Tags[] set value QT_spyglass
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_exposed_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_weathered_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oxidized_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cut_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_exposed_cut_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_weathered_cut_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oxidized_cut_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:exposed_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:weathered_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oxidized_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:cut_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:exposed_cut_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:weathered_cut_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oxidized_cut_copper"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cut_copper_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_exposed_cut_copper_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_weathered_cut_copper_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oxidized_cut_copper_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_cut_copper_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_exposed_cut_copper_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_weathered_cut_copper_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_oxidized_cut_copper_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:cut_copper_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:exposed_cut_copper_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:weathered_cut_copper_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:oxidized_cut_copper_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:cut_copper_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:exposed_cut_copper_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:weathered_cut_copper_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:oxidized_cut_copper_slab"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_copper_block,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_exposed_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_weathered_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_oxidized_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_cut_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_exposed_cut_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_weathered_cut_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_oxidized_cut_copper,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_copper_block"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_exposed_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_weathered_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_oxidized_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_cut_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_exposed_cut_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_weathered_cut_copper"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_oxidized_cut_copper"}]} run data modify entity @s Tags[] set value QT_block
 
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_cut_copper_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_exposed_cut_copper_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_weathered_cut_copper_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_oxidized_cut_copper_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_cut_copper_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_exposed_cut_copper_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_weathered_cut_copper_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_waxed_oxidized_cut_copper_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_powder_snow_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pointed_dripstone,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_pointed_dripstone"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_light,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_spore_blossom,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_spore_blossom"'}
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_cut_copper_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_exposed_cut_copper_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_weathered_cut_copper_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_oxidized_cut_copper_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_cut_copper_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_exposed_cut_copper_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_weathered_cut_copper_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:waxed_oxidized_cut_copper_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:powder_snow_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:pointed_dripstone"}]} run data modify entity @s Tags[] set value QT_pointed_dripstone
+execute if data entity @s {HandItems:[{id:"minecraft:light"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:spore_blossom"}]} run data modify entity @s Tags[] set value QT_spore_blossom
 
 #1.19
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mud,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_packed_mud,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mud_bricks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mud_brick_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mud_brick_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mud_brick_wall,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_planks,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_sapling,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_mangrove_log,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_stripped_mangrove_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_wood,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_leaves,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_roots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_muddy_mangrove_roots,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_propagule,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_slab,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_stairs,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_pressure_plate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_fence,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_stairs"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_trapdoor,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_thin_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_fence_gate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_button,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_button"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_door,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_sign,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_mangrove_boat,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_recovery_compass,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_5,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_music_disc_otherside,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_echo_shard,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_disc_fragment_5,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sculk_shrieker,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sculk,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sculk_catalyst,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_sculk_vein,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_reinforced_deepslate,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ochre_froglight,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_verdant_froglight,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_pearlescent_froglight,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_block"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_frogspawn,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_tadpole_bucket,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_goat_horn,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_allay_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_frog_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_warden_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_iron_golem_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_snow_golem_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_ender_dragon_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
-execute unless data entity @s HandItems[0].tag.CustomModelData run data merge entity @e[tag=QT_wither_spawn_egg,tag=QT_Target,distance=..0.001,limit=1] {CustomName:'"QT_item"'}
+execute if data entity @s {HandItems:[{id:"minecraft:mud"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:packed_mud"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mud_bricks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mud_brick_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mud_brick_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mud_brick_wall"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_planks"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_sapling"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_mangrove_log"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:stripped_mangrove_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_wood"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_leaves"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_roots"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:muddy_mangrove_roots"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_propagule"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_slab"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_stairs"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_pressure_plate"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_fence"}]} run data modify entity @s Tags[] set value QT_stairs
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_trapdoor"}]} run data modify entity @s Tags[] set value QT_thin_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_fence_gate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_button"}]} run data modify entity @s Tags[] set value QT_button
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_door"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_sign"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:mangrove_boat"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:recovery_compass"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_5"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:music_disc_otherside"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:echo_shard"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:disc_fragment_5"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:sculk_shrieker"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:sculk"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:sculk_catalyst"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:sculk_vein"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:reinforced_deepslate"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:ochre_froglight"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:verdant_froglight"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:pearlescent_froglight"}]} run data modify entity @s Tags[] set value QT_block
+execute if data entity @s {HandItems:[{id:"minecraft:frogspawn"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:tadpole_bucket"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:goat_horn"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:allay_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:frog_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:warden_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:iron_golem_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:snow_golem_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:ender_dragon_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
+execute if data entity @s {HandItems:[{id:"minecraft:wither_spawn_egg"}]} run data modify entity @s Tags[] set value QT_item
