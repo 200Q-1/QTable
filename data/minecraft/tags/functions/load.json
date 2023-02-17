@@ -1,6 +1,5 @@
 {
     "values":[
-        "qrafting_table:install",
-        "#qrafting_table:recipes"
+        "qrafting_table:install"
     ]
 }
