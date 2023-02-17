@@ -1,4 +1,4 @@
-#>qrafting_table:slot_position/core_to_slot_run
+#>qrafting_table:item_set
 summon item ~ ~ ~ {Tags:[QT_TmpItem],Item:{id:"stone_button",Count:1b,tag:{display:{Name:'""'}}},PickupDelay:1s}
 execute positioned ^-0.1875 ^-1 ^0.1875 as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ^0.1875 ^1 ^-0.1875 run data modify entity @e[tag=QT_TmpItem,distance=..0.001,limit=1] Tags append from entity @s data.type.2.0
 execute positioned ^ ^-1 ^0.1875 as @e[tag=QT_Core,distance=..0.001,limit=1] positioned ^ ^1 ^-0.1875 run data modify entity @e[tag=QT_TmpItem,distance=..0.001,limit=1] Tags append from entity @s data.type.2.1

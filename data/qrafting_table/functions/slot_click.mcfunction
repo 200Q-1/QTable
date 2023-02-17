@@ -10,7 +10,7 @@ execute if entity @s[y_rotation=-135..-45] align xz positioned ~0.5 ~-1 ~0.5 as 
 execute align xz positioned ~0.5 ~-1 ~0.5 as @e[tag=QT_Core,tag=QT_Rot,distance=..0.001,limit=1] run tag @s remove QT_Rot
 
 # アイテムセット
-execute positioned ~ ~-1 ~ rotated as @e[tag=QT_Core,distance=..0.625,limit=1] positioned ~ ~1 ~ run function qrafting_table:slot_position/core_to_slot_run
+execute positioned ~ ~-1 ~ rotated as @e[tag=QT_Core,distance=..0.625,limit=1] positioned ~ ~1 ~ run function qrafting_table:item_set
 
 # 空クリック
 execute positioned ~ ~-0.98 ~ as @e[tag=QT_Det,distance=..0.001,y_rotation=270,limit=1] align xz positioned ~0.5 ~-0.02 ~0.5 as @e[tag=QT_Core,tag=QT_STTable,distance=..0.001] at @s run function qrafting_table:delete
