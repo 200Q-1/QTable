@@ -1,1 +1,1 @@
-data modify entity @s data.result.tag merge from entity @s data.slot.1.1.tag
+data modify storage pretty_crafter: found.recipe.result.tag merge from storage pretty_crafter: found.items.1.1.tag
