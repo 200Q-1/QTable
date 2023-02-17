@@ -1,0 +1,1 @@
+data modify storage pretty_crafter: recipe.tags append value {tag:"#sand",ids:["minecraft:sand","minecraft:red_sand"]}

@@ -1,0 +1,18 @@
+execute if data storage pretty_crafter: found.items[{id:"minecraft:white_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:white_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:orange_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:orange_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:magenta_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:magenta_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:light_blue_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:light_blue_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:yellow_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:yellow_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:lime_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:lime_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:pink_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:pink_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:gray_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:gray_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:light_gray_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:light_gray_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:cyan_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:cyan_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:purple_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:purple_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:blue_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:blue_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:brown_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:brown_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:green_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:green_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:red_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:red_shulker_box"
+execute if data storage pretty_crafter: found.items[{id:"minecraft:black_dye"}] run data modify storage pretty_crafter: found.recipe.result.id set value "minecraft:black_shulker_box"
+
+data modify storage pretty_crafter: found.recipe.result.tag merge from storage pretty_crafter: found.items[].tag

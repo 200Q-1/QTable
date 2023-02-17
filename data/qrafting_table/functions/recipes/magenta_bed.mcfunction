@@ -1,5 +1,5 @@
 #赤紫色のベッド
-data modify storage pretty_crafter: recipe.tags set value [{tag:"#planks",ids:["minecraft:oak_planks","minecraft:spruce_planks","minecraft:birch_planks","minecraft:jungle_planks","minecraft:acacia_planks","minecraft:dark_oak_planks","minecraft:crimson_planks","minecraft:warped_planks","minecraft:mangrove_planks"]}]
+function qrafting_table:tags/planks
 data modify storage pretty_crafter: recipe.items.0.0 set value {id:"minecraft:magenta_wool"}
 data modify storage pretty_crafter: recipe.items.0.1 set value {id:"minecraft:magenta_wool"}
 data modify storage pretty_crafter: recipe.items.0.2 set value {id:"minecraft:magenta_wool"}

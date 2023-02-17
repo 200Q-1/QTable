@@ -1,0 +1,5 @@
+execute if data storage pretty_crafter: found.items[].tag.generation unless data storage pretty_crafter: found.items[].tag{generation:1} run data remove storage pretty_crafter: found
+execute if data storage pretty_crafter: found.items[{id:"minecraft:written_book"}] unless data storage pretty_crafter: found.items[].tag.generation run data modify storage pretty_crafter: found.recipe.result.tag merge from storage pretty_crafter: found.items[].tag
+execute if data storage pretty_crafter: found.items[].tag{generation:1} run data modify storage pretty_crafter: found.recipe.result.tag merge from storage pretty_crafter: found.items[].tag
+execute if data storage pretty_crafter: found.recipe.result{id:"minecraft:written_book",tag:{generation:1}} run data modify storage pretty_crafter: found.recipe.result.tag.generation set value 2
+execute if data storage pretty_crafter: found.recipe.result{id:"minecraft:written_book"} unless data storage pretty_crafter: found.recipe.result.tag.generation run data modify storage pretty_crafter: found.recipe.result.tag.generation set value 1

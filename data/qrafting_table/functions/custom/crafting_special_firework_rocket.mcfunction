@@ -1,0 +1,3 @@
+data modify storage pretty_crafter: found.recipe.result.tag.Fireworks.Explosions append from storage pretty_crafter: found.items[{id:"minecraft:firework_star"}].tag.Explosion
+execute store result storage pretty_crafter: found.recipe.result.tag.Fireworks.Flight byte 1 if data storage pretty_crafter: found.items[{id:"minecraft:gunpowder"}]
+execute unless data storage pretty_crafter: found.recipe.result.tag.Fireworks{Flight:1b} unless data storage pretty_crafter: found.recipe.result.tag.Fireworks{Flight:2b} unless data storage pretty_crafter: found.recipe.result.tag.Fireworks{Flight:3b} run data remove storage pretty_crafter: found

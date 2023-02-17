@@ -1,0 +1,1 @@
+data modify storage pretty_crafter: recipe.tags append value {tag:"#soul_fire_base_blocks",ids:["minecraft:soul_sand","minecraft:soul_soil"]}

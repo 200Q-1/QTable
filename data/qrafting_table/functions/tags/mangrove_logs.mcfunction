@@ -1,0 +1,1 @@
+data modify storage pretty_crafter: recipe.tags append value {tag:"#mangrove_logs",ids:["minecraft:mangrove_log","minecraft:mangrove_wood","minecraft:stripped_mangrove_log","minecraft:stripped_mangrove_wood"]}

@@ -1,4 +1,4 @@
-#qrafting_table:ground↩
+#>qrafting_table:ground
 
 # 棒カウント
 execute as @s store result score @s QT_StickCount run data get entity @s SelectedItem.Count 1

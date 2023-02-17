@@ -1,0 +1,13 @@
+execute if data storage pretty_crafter: found.items[{id:"minecraft:dandelion"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:7,EffectId:23}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:poppy"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:100,EffectId:16}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:blue_orchid"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:7,EffectId:23}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:allium"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:80,EffectId:12}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:azure_bluet"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:160,EffectId:15}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:red_tulip"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:180,EffectId:18}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:orange_tulip"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:180,EffectId:18}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:white_tulip"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:180,EffectId:18}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:pink_tulip"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:180,EffectId:18}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:oxeye_daisy"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:160,EffectId:10}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:cornflower"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:120,EffectId:8}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:lily_of_the_valley"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:240,EffectId:19}]}
+execute if data storage pretty_crafter: found.items[{id:"minecraft:wither_rose"}] run data modify storage pretty_crafter: found.recipe.result.tag set value {Effects:[{EffectDuration:160,EffectId:20}]}
