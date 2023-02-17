@@ -66,6 +66,7 @@ execute if data storage pretty_crafter: {mismatch:false,_:{repair:"minecraft:cha
 execute if data storage pretty_crafter: {mismatch:false,_:{repair:"minecraft:iron_boots"}} run scoreboard players set Max repair 1960
 execute if data storage pretty_crafter: {mismatch:false,_:{repair:"minecraft:golden_boots"}} run scoreboard players set Max repair 4300
 execute if data storage pretty_crafter: {mismatch:false,_:{repair:"minecraft:netherite_boots"}} run scoreboard players set Max repair 4820
+execute if data storage pretty_crafter: {mismatch:false,_:{repair:"minecraft:elytra"}} run scoreboard players set Max repair 4330
 
 execute if data storage pretty_crafter: {mismatch:false} store result score A repair run data get storage pretty_crafter: found.items[0].tag.Damage 10
 execute if data storage pretty_crafter: {mismatch:false} store result score B repair run data get storage pretty_crafter: found.items[1].tag.Damage 10
